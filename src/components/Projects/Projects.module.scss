@@ -7,7 +7,7 @@
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: min-content auto;
+  grid-template-rows: min-content min-content;
 }
 
 .titleBox {

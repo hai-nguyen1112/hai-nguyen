@@ -1,0 +1,41 @@
+@import '../../sass/variables';
+@import '../../sass/typography';
+
+.container {
+  background-color: $color-grey-light-1;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content min-content;
+}
+
+.titleBox {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  @include heading-secondary;
+}
+
+.cards {
+  padding: 0 6rem 3rem 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 6rem;
+}
+
+.otherSkills {
+  padding: 0 6rem 3rem 6rem;
+  @include heading-4;
+  text-align: left;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 2rem;
+}

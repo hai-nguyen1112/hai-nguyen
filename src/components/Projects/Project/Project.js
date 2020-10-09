@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ButtonPrimary, ButtonSecondary } from '../../UI/Button';
+import { ButtonSecondary } from '../../UI/Button';
 import cx from 'classnames';
 import styles from './Project.module.scss';
 

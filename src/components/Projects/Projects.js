@@ -34,7 +34,7 @@ const projects = [
     img: haiNguyen,
     title: 'My Personal Website',
     description:
-      'I made this personal website for the purpose of showcasing my porfolios and skills to employers. The website itself is a showcase of my responsive web design skills. I built it from scratch using pure CSS/SASS, JavaScript and React.',
+      'I made this personal website for the purpose of showcasing my porfolio and skills to employers. The website itself is a showcase of my responsive web design skills. I built it from scratch using pure CSS/SASS, JavaScript and React.',
   },
   {
     img: ge,
@@ -46,18 +46,18 @@ const projects = [
     img: cfsa,
     title: 'CFSA Community Portal',
     description:
-      'CFSA Community Portal is a project that I worked for the District of Columbia Government. It is a user-friend and responsive web application that allows collaborative workers to input, process, update and keep track of child abuse cases.',
+      'CFSA Community Portal is a project that I worked on for the District of Columbia Government. It is a responsive web application that allows Washington DC social workers to input, process, update and keep track of child abuse cases.',
   },
   {
     img: undercooked,
     title: 'Undercooked!',
     description:
-      'Undercooked! is a fun cooking game. I built it from scratch using JavaScript/React for the frontend and Ruby on Rails for the backend. It was my graduation project from Flatiron School, the full stack web development bootcamp. I am proud of it.',
+      'Undercooked! is a fun cooking game. I built it from scratch using JavaScript/React for the frontend and Ruby on Rails for the backend. It was my graduation project from Flatiron School where I learned full stack web development.',
   },
   {
     img: hiant,
     title: "HiAnt's BMI Calculator",
     description:
-      'HiAnt helps you calculate your BMI and the weight you need to lose/gain to be fit. It was one of the projects that I worked together with a classmate at Flatiron School. We built both frontend and backend from scratch using Ruby on Rails.',
+      'HiAnt helps users calculate their BMI and the weight they need to lose or gain to be in the healthy range. It was one of the projects that I worked on together with a classmate at Flatiron School. We built both frontend and backend from scratch using Ruby on Rails.',
   },
 ];

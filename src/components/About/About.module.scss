@@ -1,0 +1,157 @@
+@import '../../sass/variables';
+@import '../../sass/typography';
+
+%list {
+  background-color: $color-grey-light-1;
+  padding: 2rem 3rem;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+  .categoryTitle {
+    @include heading-3;
+  }
+
+  ul {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+
+    li {
+      text-align: left;
+      font-size: 1.5rem;
+      padding: 1rem;
+
+      span {
+        display: block;
+      }
+
+      &:not(:last-child) {
+        border-bottom: 2px solid $color-grey-light-2;
+      }
+    }
+  }
+}
+
+.about {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-secondary-light, 0.8),
+      rgba($color-secondary-dark, 0.8)
+    ),
+    url(../../img/about.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content;
+  grid-gap: 5rem;
+
+  @media only screen and (max-width: 63.25em) {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content;
+    grid-column-gap: 0;
+    grid-row-gap: 5rem;
+  }
+
+  .aboutBox {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .aboutMe {
+      max-width: 90rem;
+      padding: 3rem;
+      background-color: $color-grey-light-1;
+      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+      transform: skewX(-12deg);
+
+      display: grid;
+      grid-template-columns: max-content auto;
+      grid-template-rows: min-content min-content;
+      grid-gap: 3rem;
+
+      @media only screen and (max-width: 65.5em) {
+        max-width: 100%;
+      }
+
+      @media only screen and (max-width: 63.25em) {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+      }
+
+      @media only screen and (max-width: 56.25em) {
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content;
+        transform: skewX(0deg);
+      }
+
+      .avatar {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        align-self: center;
+        justify-self: center;
+        transform: skewX(12deg);
+
+        @media only screen and (max-width: 56.25em) {
+          transform: skewX(0deg);
+        }
+      }
+
+      .name {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        @include heading-3;
+        align-self: flex-start;
+        transform: skewX(12deg);
+
+        @media only screen and (max-width: 56.25em) {
+          justify-self: center;
+          transform: skewX(0deg);
+        }
+      }
+
+      .intro {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 2;
+        font-size: 1.6rem;
+        transform: skewX(12deg);
+
+        @media only screen and (max-width: 56.25em) {
+          grid-column: 1 / span 1;
+          grid-row: 3 / span 1;
+          transform: skewX(0deg);
+        }
+      }
+    }
+  }
+
+  .education {
+    @extend %list;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+
+    @media only screen and (max-width: 63.25em) {
+      grid-column: 1 / span 1;
+      grid-row: 2 / span 1;
+    }
+  }
+
+  .workExperience {
+    @extend %list;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+
+    @media only screen and (max-width: 63.25em) {
+      grid-column: 1 / span 1;
+      grid-row: 3 / span 1;
+    }
+  }
+}

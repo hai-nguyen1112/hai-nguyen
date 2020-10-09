@@ -27,22 +27,22 @@ const Welcome = () => {
         </div>
         <div className={styles.buttonBox}>
           <ButtonPrimary
-            path="#skills"
-            color="white"
-            shape="skewed"
-            width="fluid"
-          >
-            My Skills
-          </ButtonPrimary>
-        </div>
-        <div className={styles.buttonBox}>
-          <ButtonPrimary
             path="#about"
             color="white"
             shape="skewed"
             width="fluid"
           >
             About Me
+          </ButtonPrimary>
+        </div>
+        <div className={styles.buttonBox}>
+          <ButtonPrimary
+            path="#skills"
+            color="white"
+            shape="skewed"
+            width="fluid"
+          >
+            My Skills
           </ButtonPrimary>
         </div>
       </div>
