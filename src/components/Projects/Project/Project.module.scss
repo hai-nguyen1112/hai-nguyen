@@ -1,0 +1,113 @@
+@import '../../../sass/variables';
+
+.project {
+  height: 45rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+
+  .side {
+    height: 45rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  }
+
+  .front {
+    background-color: $color-grey-light-1;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content min-content min-content;
+
+    .projectPicture {
+      grid-row: 1 / 2;
+      grid-column: 1 / -1;
+      width: 100%;
+    }
+
+    .projectTitle {
+      grid-row: 2 / 3;
+      grid-column: 1 / -1;
+      width: 90%;
+      justify-self: center;
+
+      font-family: $font-display;
+      font-size: 1.6rem;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      padding: 1.25rem;
+      background-color: $color-tertiary-light;
+      color: $color-white;
+      font-weight: 400;
+      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+      transform: translateY(-50%);
+    }
+
+    .projectDetails {
+      grid-row: 3 / 4;
+      grid-column: 1 / -1;
+      width: 100%;
+      padding: 0 3rem 3rem 3rem;
+
+      font-family: $font-primary;
+      font-size: 1.6rem;
+      text-align: justify;
+    }
+
+    .projectButton {
+      display: none;
+    }
+  }
+
+  .back {
+    transform: rotateY(180deg);
+    // background-color: $color-grey-light-1;
+    background-image: linear-gradient(
+      to right bottom,
+      $color-secondary-light,
+      $color-secondary-dark
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:hover .front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover .back {
+    transform: rotateY(0);
+  }
+
+  @media only screen and (hover: none) {
+    height: auto;
+    border-radius: 3px;
+    background-color: $color-white;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+    transition: none;
+
+    .side {
+      height: auto;
+      position: relative;
+      border-radius: 3px;
+      box-shadow: none;
+    }
+
+    .back {
+      transform: rotateY(0deg);
+    }
+
+    &:hover .front {
+      transform: rotateY(0deg);
+    }
+  }
+}

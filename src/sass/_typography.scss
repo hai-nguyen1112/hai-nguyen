@@ -1,0 +1,29 @@
+@import './variables';
+
+%heading {
+  font-family: $font-display;
+  font-weight: 700;
+}
+
+@mixin heading-primary {
+  @extend %heading;
+  color: $color-white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin heading-secondary {
+  @extend %heading;
+  font-size: 4rem;
+  text-transform: uppercase;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-secondary-light,
+    $color-secondary-dark
+  );
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 1rem;
+  text-align: center;
+}

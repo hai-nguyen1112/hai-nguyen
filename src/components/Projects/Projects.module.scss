@@ -1,0 +1,32 @@
+@import '../../sass/variables';
+@import '../../sass/typography';
+
+.container {
+  background-color: $color-grey-light-1;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content auto;
+}
+
+.titleBox {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  @include heading-secondary;
+}
+
+.cards {
+  padding: 0 5rem 3rem 5rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 45rem));
+  grid-gap: 7rem;
+  justify-content: center;
+  align-content: center;
+}
