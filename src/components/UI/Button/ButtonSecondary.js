@@ -12,6 +12,7 @@ export const ButtonSecondary = (props) => {
         styles[props.width],
         styles[props.color]
       )}
+      onClick={props.clicked}
     >
       {props.children}
     </button>

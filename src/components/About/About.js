@@ -13,7 +13,7 @@ const About = () => {
           <h4 className={styles.name}>Hai Nguyen</h4>
           <p className={styles.intro}>
             I was born and raised in Chau Doc, a small town located on Mekong
-            delta in the South of Vietnam, where you can find countless floating
+            delta in the South of Vietnam, where you can spot countless floating
             houses, tons of motorbikes on streets and endless green rice fields.
             I came to the USA in 2015 and graduated Summa Cum Laude with an
             Associate’s degree in Cybersecurity in 2018. Right after finishing
@@ -23,7 +23,9 @@ const About = () => {
             then. So far, I have contributed to two major projects (one for the
             Washington DC Government, one for the Federal Government) and many
             other projects. I am a lifelong learner who is always looking to
-            acquiring new techinial expertise to add more values to my products.
+            acquiring new techinial expertise to keep myself up to date with the
+            nonstop evolving development industry and add more values to my
+            products.
           </p>
         </div>
       </div>

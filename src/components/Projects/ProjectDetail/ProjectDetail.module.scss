@@ -1,0 +1,91 @@
+@import '../../../sass/variables';
+@import '../../../sass/typography';
+
+.container {
+  width: 100%;
+  background-color: $color-grey-light-1;
+  padding: 2rem 3rem;
+
+  .projectTitle {
+    @include heading-3;
+    padding: 0 1rem;
+  }
+
+  .projectSubtitle {
+    @include heading-4;
+    text-align: left;
+    padding: 0 1rem;
+  }
+
+  ul {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+
+    li {
+      text-align: left;
+      font-size: 1.5rem;
+      padding: 1rem;
+
+      span {
+        display: block;
+      }
+
+      div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+          width: 4rem;
+          height: 4rem;
+          margin-right: 1rem;
+        }
+
+        a {
+          color: $color-grey-light-2;
+        }
+      }
+
+      &:not(:last-child) {
+        border-bottom: 2px solid $color-grey-light-2;
+      }
+    }
+  }
+
+  .closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 3rem;
+    align-items: normal;
+    background-color: transparent;
+    border-style: none;
+    box-sizing: content-box;
+    color: $color-secondary-light;
+    cursor: pointer;
+    display: inline;
+    height: auto;
+    padding: 0;
+    perspective-origin: 0 0;
+    text-align: start;
+    transform-origin: 0 0;
+    width: auto;
+    -moz-appearance: none;
+    -webkit-logical-height: 1em; /* Chrome ignores auto, so we have to use this hack to set the correct height  */
+    -webkit-logical-width: auto;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $color-secondary-dark;
+    }
+
+    &:active {
+      color: $color-secondary-light;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
