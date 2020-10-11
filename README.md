@@ -2,6 +2,6 @@
 
 ## Full stack software engineer
 
-## Personal Website/Porfolios Page
+## Personal Website/Porfolio Page
 
-## Link:
+## Link to Demo: [placeholder for now]
