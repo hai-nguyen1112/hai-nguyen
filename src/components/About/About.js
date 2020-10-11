@@ -21,11 +21,10 @@ const About = () => {
             stack web development. I graduated from the bootcamp in April 2019
             and have been working professionally as a software engineer since
             then. So far, I have contributed to two major projects (one for the
-            Washington DC Government, one for the Federal Government) and many
-            other projects. I am a lifelong learner who is always looking to
-            acquiring new techinial expertise to keep myself up to date with the
-            nonstop evolving development industry and add more values to my
-            products.
+            Washington DC Government, one for the Federal Government) and other
+            projects. I am a lifelong learner who is always looking to acquire
+            new techinial expertise to keep myself up to date with the nonstop
+            evolving development industry and to add more values to my products.
           </p>
         </div>
       </div>
