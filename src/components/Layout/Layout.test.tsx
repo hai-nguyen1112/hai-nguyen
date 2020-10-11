@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, ShallowWrapper, mount, ReactWrapper } from 'enzyme';
+import { shallow, ShallowWrapper } from 'enzyme';
 
 import Layout from './Layout';
 import Navigation from '../Navigation';
@@ -8,9 +8,9 @@ import BackToTop from '../Navigation/BackToTop';
 import Footer from '../UI/Footer';
 
 describe('<Layout />', (): void => {
-  let wrapper: ReactWrapper;
-  beforeEach(() => {
-    wrapper = mount(
+  let wrapper: ShallowWrapper;
+  beforeEach((): void => {
+    wrapper = shallow(
       <Layout>
         <div></div>
       </Layout>
