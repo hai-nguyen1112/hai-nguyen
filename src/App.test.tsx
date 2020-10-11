@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow, mount, ShallowWrapper, ReactWrapper } from 'enzyme';
 import { MemoryRouter } from 'react-router';
 
 import App from './App';
@@ -9,14 +9,14 @@ import Layout from './components/Layout';
 const mockRRD = require('react-router-dom');
 mockRRD.BrowserRouter = (children: JSX.Element) => <div>{children}</div>;
 
-describe('<App />', () => {
-  it('should render one <Layout /> component', () => {
-    const wrapper = shallow(<App />);
+describe('<App />', (): void => {
+  it('should render one <Layout /> component', (): void => {
+    const wrapper: ShallowWrapper = shallow(<App />);
     expect(wrapper.find(Layout)).toHaveLength(1);
   });
 
-  it("should render one <MainPage /> component if getting valid path '/'", () => {
-    const wrapper = mount(
+  it("should render one <MainPage /> component if getting valid path '/'", (): void => {
+    const wrapper: ReactWrapper = mount(
       <MemoryRouter initialEntries={['/']}>
         <App />
       </MemoryRouter>
@@ -24,8 +24,8 @@ describe('<App />', () => {
     expect(wrapper.find(MainPage)).toHaveLength(1);
   });
 
-  it("should redirect to '/' if getting invalid path", () => {
-    const wrapper = mount(
+  it("should redirect to '/' if getting invalid path", (): void => {
+    const wrapper: ReactWrapper = mount(
       <MemoryRouter initialEntries={['/random']}>
         <App />
       </MemoryRouter>
