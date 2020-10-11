@@ -4,7 +4,22 @@ import githubLogo from '../../../img/github.png';
 import webLogo from '../../../img/web.png';
 import styles from './ProjectDetail.module.scss';
 
-const ProjectDetail = ({ onModalClose, projectDetail }) => {
+interface ProjectDetailProps {
+  onModalClose: () => void;
+  projectDetail: {
+    title: string;
+    subTitle: string;
+    details: string[];
+    gitRepoLink: string;
+    demoLink: string;
+    note: string;
+  };
+}
+
+const ProjectDetail = ({
+  onModalClose,
+  projectDetail,
+}: ProjectDetailProps): JSX.Element => {
   return (
     <div className={styles.container}>
       <button className={styles.closeButton} onClick={onModalClose}>

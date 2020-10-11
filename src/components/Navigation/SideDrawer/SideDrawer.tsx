@@ -5,8 +5,13 @@ import { ButtonSecondary } from '../../UI/Button';
 import hai from '../../../img/haiavatar.jpg';
 import styles from './SideDrawer.module.scss';
 
-const SideDrawer = (props) => {
-  let attachedClasses = [styles.sideDrawer, styles.closed];
+type SideDrawerProps = {
+  open: boolean;
+  onCloseSideDrawer: () => void;
+};
+
+const SideDrawer = (props: SideDrawerProps): JSX.Element => {
+  let attachedClasses: string[] = [styles.sideDrawer, styles.closed];
 
   if (props.open) {
     attachedClasses = [styles.sideDrawer, styles.open];

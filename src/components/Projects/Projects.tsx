@@ -8,16 +8,34 @@ import undercooked from '../../img/undercooked.jpg';
 import hiant from '../../img/hiant.jpg';
 import styles from './Projects.module.scss';
 
-const Projects = () => {
-  const projectsList = projects.map((project, index) => (
-    <Project
-      key={index + project.title}
-      img={project.img}
-      title={project.title}
-      description={project.description}
-      projectDetail={project.projectDetail}
-    />
-  ));
+const Projects = (): JSX.Element => {
+  const projectsList: JSX.Element[] = projects.map(
+    (
+      project: {
+        title: string;
+        img: string;
+        description: string;
+        projectDetail: {
+          title: string;
+          subTitle: string;
+          details: string[];
+          gitRepoLink: string;
+          demoLink: string;
+          note: string;
+        };
+      },
+      index: number
+    ): JSX.Element => (
+      <Project
+        key={index + project.title}
+        img={project.img}
+        title={project.title}
+        description={project.description}
+        projectDetail={project.projectDetail}
+      />
+    )
+  );
+
   return (
     <div id="projects" className={styles.container}>
       <div className={styles.titleBox}>
@@ -30,7 +48,19 @@ const Projects = () => {
 
 export default Projects;
 
-const projects = [
+const projects: {
+  title: string;
+  img: string;
+  description: string;
+  projectDetail: {
+    title: string;
+    subTitle: string;
+    details: string[];
+    gitRepoLink: string;
+    demoLink: string;
+    note: string;
+  };
+}[] = [
   {
     img: haiNguyen,
     title: 'My Personal Website',

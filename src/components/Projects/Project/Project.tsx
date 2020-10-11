@@ -6,14 +6,33 @@ import { ButtonSecondary } from '../../UI/Button';
 import cx from 'classnames';
 import styles from './Project.module.scss';
 
-const Project = ({ img, title, description, projectDetail }) => {
+type ProjectProps = {
+  img: string;
+  title: string;
+  description: string;
+  projectDetail: {
+    title: string;
+    subTitle: string;
+    details: string[];
+    gitRepoLink: string;
+    demoLink: string;
+    note: string;
+  };
+};
+
+const Project = ({
+  img,
+  title,
+  description,
+  projectDetail,
+}: ProjectProps): JSX.Element => {
   const [showModal, setShowModal] = useState(false);
 
-  const closeModalHandler = useCallback(() => {
+  const closeModalHandler = useCallback((): void => {
     setShowModal(false);
   }, [setShowModal]);
 
-  const openModalHandler = useCallback(() => {
+  const openModalHandler = useCallback((): void => {
     setShowModal(true);
   }, [setShowModal]);
 

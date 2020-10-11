@@ -4,7 +4,7 @@ import styles from './About.module.scss';
 import haiAvatar from '../../img/haiavatar.jpg';
 import cx from 'classnames';
 
-const About = () => {
+const About = (): JSX.Element => {
   return (
     <div id="about" className={cx(styles.about, 'mt-sm')}>
       <div className={styles.aboutBox}>

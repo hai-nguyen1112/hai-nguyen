@@ -2,7 +2,12 @@ import React from 'react';
 
 import styles from './Backdrop.module.scss';
 
-const Backdrop = (props) => {
+interface BackdropProps {
+  show: boolean;
+  clicked: () => void;
+}
+
+const Backdrop = (props: BackdropProps): JSX.Element => {
   return (
     <div
       className={styles.backdrop}

@@ -2,7 +2,13 @@ import React from 'react';
 
 import styles from './Skill.module.scss';
 
-const Skill = (props) => {
+interface SkillProps {
+  img: string;
+  title: string;
+  description: string;
+}
+
+const Skill = (props: SkillProps): JSX.Element => {
   return (
     <div className={styles.skill}>
       <img src={props.img} className={styles.logo} alt="logo" />

@@ -3,7 +3,13 @@ import React from 'react';
 import Backdrop from '../Backdrop';
 import styles from './Modal.module.scss';
 
-const Modal = (props) => {
+type ModalProps = {
+  show: boolean;
+  onModalClose: () => void;
+  children: JSX.Element;
+};
+
+const Modal = (props: ModalProps): JSX.Element => {
   return (
     <React.Fragment>
       <Backdrop show={props.show} clicked={props.onModalClose} />
