@@ -14,6 +14,11 @@
   text-align: center;
   cursor: pointer;
 
+  @media only screen and (max-width: 65.625em) {
+    top: 4rem;
+    left: 4rem;
+  }
+
   .icon {
     position: relative;
     margin-top: 3rem;

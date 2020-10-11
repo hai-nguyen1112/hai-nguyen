@@ -38,7 +38,7 @@ const projects = [
       'I made this personal website for the purpose of showcasing my porfolio and skills to employers. The website itself is a showcase of my responsive web design skills. I built it from scratch using pure CSS/SASS, JavaScript and React.',
     projectDetail: {
       title: 'My Personal Website',
-      subTitle: 'A personal project to showcase my porfolio and skills.',
+      subTitle: 'A personal project to showcase my portfolio and skills.',
       details: [
         'Created SPA components using JavaScript/React.',
         'Used advanced CSS/SASS to style the web page, create cool effects and make it responsive. This is the main focus of this project. I built everything from scratch including buttons, backdrop, modal, popup, side drawer, cards, graphics, ... without relying on thrid party libraries such as Material UI, Bootstrap, Semantic UI, ...',

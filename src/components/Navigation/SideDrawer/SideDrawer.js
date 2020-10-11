@@ -16,7 +16,7 @@ const SideDrawer = (props) => {
     <React.Fragment>
       <Backdrop show={props.open} clicked={props.onCloseSideDrawer} />
       <div className={attachedClasses.join(' ')}>
-        <img src={hai} className={styles.avatar} />
+        <img alt="hai avatar" src={hai} className={styles.avatar} />
         <a href="!#">
           <ButtonSecondary width="fluid" clicked={props.onCloseSideDrawer}>
             Back to top
