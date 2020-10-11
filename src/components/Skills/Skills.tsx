@@ -13,15 +13,20 @@ import mongodbLogo from '../../img/mongodb.png';
 import mongooseLogo from '../../img/mongoose.png';
 import styles from './Skills.module.scss';
 
-const Skills = () => {
-  const skillsList = skills.map((skill, index) => (
-    <Skill
-      key={skill.title + index}
-      img={skill.img}
-      title={skill.title}
-      description={skill.description}
-    />
-  ));
+const Skills = (): JSX.Element => {
+  const skillsList: JSX.Element[] = skills.map(
+    (
+      skill: { title: string; img: string; description: string },
+      index: number
+    ): JSX.Element => (
+      <Skill
+        key={skill.title + index}
+        img={skill.img}
+        title={skill.title}
+        description={skill.description}
+      />
+    )
+  );
 
   return (
     <div id="skills" className={styles.container}>
@@ -51,7 +56,7 @@ const Skills = () => {
 
 export default Skills;
 
-const skills = [
+const skills: { img: string; title: string; description: string }[] = [
   {
     img: javascriptLogo,
     title: 'JavaScript',

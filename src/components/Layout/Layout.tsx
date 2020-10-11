@@ -5,14 +5,18 @@ import SideDrawer from '../Navigation/SideDrawer';
 import BackToTop from '../Navigation/BackToTop';
 import Footer from '../UI/Footer';
 
-const Layout = (props) => {
+interface LayoutProps {
+  children: JSX.Element;
+}
+
+const Layout = (props: LayoutProps): JSX.Element => {
   const [showSideDrawer, setShowSideDrawer] = useState(false);
 
-  const openSideDrawerHandler = useCallback(() => {
+  const openSideDrawerHandler = useCallback((): void => {
     setShowSideDrawer(true);
   }, [setShowSideDrawer]);
 
-  const closeSideDrawerHandler = useCallback(() => {
+  const closeSideDrawerHandler = useCallback((): void => {
     setShowSideDrawer(false);
   }, [setShowSideDrawer]);
 

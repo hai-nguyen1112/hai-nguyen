@@ -4,7 +4,7 @@ import { Route, Switch, Redirect } from 'react-router';
 import Layout from './components/Layout';
 import MainPage from './components/MainPage';
 
-const App = () => {
+const App = (): JSX.Element => {
   const routes = (
     <Switch>
       <Route path="/" component={MainPage} />

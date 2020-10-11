@@ -3,7 +3,7 @@ import React from 'react';
 import { ButtonPrimary } from '../UI/Button';
 import styles from './Welcome.module.scss';
 
-const Welcome = () => {
+const Welcome = (): JSX.Element => {
   return (
     <div id="welcome" className={styles.welcome}>
       <div className={styles.textBox}>

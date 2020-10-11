@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './BackToTop.module.scss';
 
-const BackToTop = () => {
+const BackToTop = (): JSX.Element => {
   return (
     <a href="!#">
       <div className={styles.backToTop}>
