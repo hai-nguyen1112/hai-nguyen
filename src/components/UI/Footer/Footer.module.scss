@@ -20,6 +20,20 @@
     padding-bottom: 2rem;
     color: $color-white;
     font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .copyRight {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .disclaimer {
+      max-width: 75rem;
+      font-size: 1.3rem;
+      padding: 1rem;
+    }
   }
 
   div {

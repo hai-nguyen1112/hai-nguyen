@@ -71,11 +71,11 @@ const projects: {
       subTitle: 'A personal project to showcase my portfolio and skills.',
       details: [
         'Created SPA components using JavaScript/React.',
-        'Used advanced CSS/SASS to style the web page, create cool effects and make it responsive. This is the main focus of this project. I built everything from scratch including buttons, backdrop, modal, popup, side drawer, cards, graphics, ... without relying on thrid party libraries such as Material UI, Bootstrap, Semantic UI, ...',
+        'Used advanced CSS/SASS to style the web page, create interactive effects and make it responsive. I built everything from scratch including buttons, backdrop, modal, popup, side drawer, cards, graphics, ... without relying on thrid party libraries such as Material UI, Bootstrap, Semantic UI, ...',
         'Used React Router Dom for routing.',
         'Used Jest/Enzyme to write unit and integration tests for components.',
         'Used TypeScript to add type annotations for analyzing code and catching errors during development.',
-        'Plans in the future: add a NodeJS backend and MongoDB database to transfer the hard-coded information to the backend.',
+        'Plans for the future: add a NodeJS backend and MongoDB database to transfer the hard-coded information to the backend and use Redux for state management.',
         'For a closer look at the code and all dependencies/packages used in this project, go to the Git repo linked below.',
       ],
       gitRepoLink: 'https://github.com/hai-nguyen1112/hai-nguyen',
