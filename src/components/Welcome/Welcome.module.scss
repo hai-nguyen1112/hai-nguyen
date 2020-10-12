@@ -2,6 +2,8 @@
 @import '../../sass/typography';
 
 .welcome {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
   min-height: 100vh;
   background-image: linear-gradient(
       to right bottom,

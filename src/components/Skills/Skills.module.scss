@@ -2,6 +2,9 @@
 @import '../../sass/typography';
 
 .container {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+
   background-color: $color-grey-light-1;
   min-height: 100vh;
 
