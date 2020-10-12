@@ -22,7 +22,7 @@ const SideDrawer = (props: SideDrawerProps): JSX.Element => {
       <Backdrop show={props.open} clicked={props.onCloseSideDrawer} />
       <div className={attachedClasses.join(' ')}>
         <img alt="hai avatar" src={hai} className={styles.avatar} />
-        <a href="!#">
+        <a href="#welcome">
           <ButtonSecondary width="fluid" clicked={props.onCloseSideDrawer}>
             Back to top
           </ButtonSecondary>

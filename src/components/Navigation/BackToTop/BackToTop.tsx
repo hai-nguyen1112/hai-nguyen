@@ -4,7 +4,7 @@ import styles from './BackToTop.module.scss';
 
 const BackToTop = (): JSX.Element => {
   return (
-    <a href="!#">
+    <a href="#welcome">
       <div className={styles.backToTop}>
         <div className={styles.inside}></div>
       </div>
