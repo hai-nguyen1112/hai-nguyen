@@ -37,11 +37,11 @@
 
   min-height: 100vh;
   background-image: linear-gradient(
-    to right bottom,
-    rgba($color-secondary-light, 0.8),
-    rgba($color-secondary-dark, 0.8)
-  );
-  //url(../../img/about.jpg);
+      to right bottom,
+      rgba($color-secondary-light, 0.8),
+      rgba($color-secondary-dark, 0.8)
+    ),
+    url(../../img/about.jpg);
   background-size: cover;
   background-position: center;
   padding: 5rem;
