@@ -17,4 +17,16 @@ describe('<BackToTop />', (): void => {
     const anchorHref: string | undefined = wrapper.find('a').prop('href');
     expect(anchorHref).toEqual('!#');
   });
+
+  it('should render two <div/> components', (): void => {
+    expect(wrapper.find('div')).toHaveLength(2);
+  });
+
+  test('the first <div/> should have className backToTop', (): void => {
+    expect(wrapper.find('div').at(0).hasClass('backToTop')).toBe(true);
+  });
+
+  test('the second <div/> should have className inside', (): void => {
+    expect(wrapper.find('div').at(1).hasClass('inside')).toBe(true);
+  });
 });

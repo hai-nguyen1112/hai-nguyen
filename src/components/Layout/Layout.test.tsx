@@ -32,7 +32,7 @@ describe('<Layout />', (): void => {
     expect(wrapper.find(Footer)).toHaveLength(1);
   });
 
-  it('should render <main>{children}</main>', (): void => {
+  it('should render <main><div></div></main>', (): void => {
     expect(wrapper.html()).toContain('<main><div></div></main>');
   });
 });

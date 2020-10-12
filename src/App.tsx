@@ -5,7 +5,7 @@ import Layout from './components/Layout';
 import MainPage from './components/MainPage';
 
 const App = (): JSX.Element => {
-  const routes = (
+  const routes: JSX.Element = (
     <Switch>
       <Route path="/" component={MainPage} />
       <Redirect from="*" to="/" />
