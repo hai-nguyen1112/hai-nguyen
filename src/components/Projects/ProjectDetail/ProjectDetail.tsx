@@ -48,7 +48,7 @@ const ProjectDetail = ({
                 Go to Git repo
               </a>
             ) : (
-              'This repo is private.'
+              'This repo is confidential.'
             )}
           </div>
           <div>

@@ -67,7 +67,7 @@ const skills: { img: string; title: string; description: string }[] = [
     img: reactLogo,
     title: 'React',
     description:
-      'React is my favorite frontend framework due to its component-based nature which makes it so easy to build and maintain single page apps.',
+      'React is my favorite frontend framework due to its component-based nature which makes it easy to build and maintain single page apps.',
   },
   {
     img: reduxLogo,
@@ -103,13 +103,13 @@ const skills: { img: string; title: string; description: string }[] = [
     img: expressLogo,
     title: 'Express',
     description:
-      'Express is my favorite framework which helps me write NodeJS applcations faster and more efficiently.',
+      'I use Express to write NodeJS applications faster and more efficiently.',
   },
   {
     img: mongodbLogo,
     title: 'MongoDB',
     description:
-      'MongoDB, a document-oriented NoSQL database, is my main database program as of now because of its popularity.',
+      'MongoDB, a document-oriented NoSQL database, is currently my main database program.',
   },
   {
     img: mongooseLogo,
