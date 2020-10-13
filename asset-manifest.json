@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hai-nguyen/static/css/main.9dff40c0.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.ffca9ec3.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.ffca9ec3.chunk.js.map",
+    "main.css": "/hai-nguyen/static/css/main.f92b865a.chunk.css",
+    "main.js": "/hai-nguyen/static/js/main.59a74fa3.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.59a74fa3.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
-    "static/js/2.1b83dc53.chunk.js": "/hai-nguyen/static/js/2.1b83dc53.chunk.js",
-    "static/js/2.1b83dc53.chunk.js.map": "/hai-nguyen/static/js/2.1b83dc53.chunk.js.map",
+    "static/js/2.baaeaca9.chunk.js": "/hai-nguyen/static/js/2.baaeaca9.chunk.js",
+    "static/js/2.baaeaca9.chunk.js.map": "/hai-nguyen/static/js/2.baaeaca9.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.ce032fcbd262271106ebc086836f30c6.js": "/hai-nguyen/precache-manifest.ce032fcbd262271106ebc086836f30c6.js",
+    "precache-manifest.0dc6eba8f0b35e75be1a80d060fd21a4.js": "/hai-nguyen/precache-manifest.0dc6eba8f0b35e75be1a80d060fd21a4.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
-    "static/css/main.9dff40c0.chunk.css.map": "/hai-nguyen/static/css/main.9dff40c0.chunk.css.map",
-    "static/js/2.1b83dc53.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.1b83dc53.chunk.js.LICENSE.txt",
+    "static/css/main.f92b865a.chunk.css.map": "/hai-nguyen/static/css/main.f92b865a.chunk.css.map",
+    "static/js/2.baaeaca9.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.baaeaca9.chunk.js.LICENSE.txt",
     "static/media/About.module.scss": "/hai-nguyen/static/media/about.86785ab3.jpg",
     "static/media/enzyme.png": "/hai-nguyen/static/media/enzyme.5018a76b.png",
     "static/media/express.png": "/hai-nguyen/static/media/express.bd3a7cd2.png",
@@ -23,12 +23,13 @@
     "static/media/react.png": "/hai-nguyen/static/media/react.b4d50f46.png",
     "static/media/redux.png": "/hai-nguyen/static/media/redux.822be8db.png",
     "static/media/sass.png": "/hai-nguyen/static/media/sass.106ecf4a.png",
-    "static/media/typescript.jpg": "/hai-nguyen/static/media/typescript.fead1d45.jpg"
+    "static/media/typescript.jpg": "/hai-nguyen/static/media/typescript.fead1d45.jpg",
+    "static/media/Welcome.module.scss": "/hai-nguyen/static/media/welcome.578bdd00.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d0340237.js",
-    "static/js/2.1b83dc53.chunk.js",
-    "static/css/main.9dff40c0.chunk.css",
-    "static/js/main.ffca9ec3.chunk.js"
+    "static/js/2.baaeaca9.chunk.js",
+    "static/css/main.f92b865a.chunk.css",
+    "static/js/main.59a74fa3.chunk.js"
   ]
 }
