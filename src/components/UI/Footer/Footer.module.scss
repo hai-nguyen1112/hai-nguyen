@@ -1,16 +1,11 @@
 @import '../../../sass/variables';
 
 .footer {
-  grid-row: 2 / span 1;
-
-  width: 100%;
   background-image: linear-gradient(
     to right bottom,
     $color-secondary-light,
     $color-secondary-dark
   );
-
-  display: grid;
 
   .buttonsBox {
     padding: 2rem;

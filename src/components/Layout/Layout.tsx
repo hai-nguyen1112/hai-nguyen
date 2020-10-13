@@ -5,8 +5,6 @@ import SideDrawer from '../Navigation/SideDrawer';
 import BackToTop from '../Navigation/BackToTop';
 import Footer from '../UI/Footer';
 
-import styles from './Layout.module.scss';
-
 interface LayoutProps {
   children: JSX.Element;
 }
@@ -23,16 +21,16 @@ const Layout = (props: LayoutProps): JSX.Element => {
   }, [setShowSideDrawer]);
 
   return (
-    <div className={styles.container}>
+    <React.Fragment>
       <BackToTop />
       <Navigation onOpenSideDrawer={openSideDrawerHandler} />
       <SideDrawer
         open={showSideDrawer}
         onCloseSideDrawer={closeSideDrawerHandler}
       />
-      <main className={styles.mainContainer}>{props.children}</main>
+      <main>{props.children}</main>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 

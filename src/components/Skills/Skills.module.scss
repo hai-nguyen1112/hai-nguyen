@@ -4,10 +4,6 @@
 .container {
   background-color: $color-grey-light-1;
   min-height: 100vh;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: min-content min-content min-content;
 }
 
 .titleBox {

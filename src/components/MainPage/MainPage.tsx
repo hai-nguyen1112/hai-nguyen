@@ -4,16 +4,15 @@ import Welcome from '../Welcome';
 import Projects from '../Projects';
 import About from '../About';
 import Skills from '../Skills';
-import styles from './MainPage.module.scss';
 
 const MainPage = (): JSX.Element => {
   return (
-    <div className={styles.container}>
+    <React.Fragment>
       <Welcome />
       <Projects />
       <About />
       <Skills />
-    </div>
+    </React.Fragment>
   );
 };
 

@@ -56,7 +56,7 @@ const ProjectDetail = ({
                 Go to Git repo
               </a>
             ) : (
-              'This repo is confidential.'
+              <span>This repo is confidential.</span>
             )}
           </div>
           <div>
@@ -70,7 +70,7 @@ const ProjectDetail = ({
                 Go to demo page
               </a>
             ) : (
-              'The demo page is unvailable.'
+              <span>The demo page is unavailable.</span>
             )}
           </div>
           {projectDetail.note.length !== 0 ? (
