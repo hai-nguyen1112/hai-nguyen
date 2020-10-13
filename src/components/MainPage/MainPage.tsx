@@ -10,9 +10,9 @@ const MainPage = (): JSX.Element => {
   return (
     <div className={styles.container}>
       {/* <Welcome /> */}
-      {/* <Projects /> */}
+      <Projects />
       {/* <About /> */}
-      <Skills />
+      {/* <Skills /> */}
     </div>
   );
 };
