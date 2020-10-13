@@ -21,7 +21,7 @@ const Layout = (props: LayoutProps): JSX.Element => {
   }, [setShowSideDrawer]);
 
   return (
-    <React.Fragment>
+    <div>
       <BackToTop />
       <Navigation onOpenSideDrawer={openSideDrawerHandler} />
       <SideDrawer
@@ -30,7 +30,7 @@ const Layout = (props: LayoutProps): JSX.Element => {
       />
       <main>{props.children}</main>
       <Footer />
-    </React.Fragment>
+    </div>
   );
 };
 

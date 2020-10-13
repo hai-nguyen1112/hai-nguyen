@@ -7,12 +7,12 @@ import Skills from '../Skills';
 
 const MainPage = (): JSX.Element => {
   return (
-    <React.Fragment>
+    <div>
       <Welcome />
       <Projects />
       <About />
       <Skills />
-    </React.Fragment>
+    </div>
   );
 };
 
