@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 
 import Modal from '../../UI/Modal';
 import ProjectDetail from '../ProjectDetail';
@@ -27,6 +27,10 @@ const Project = ({
   projectDetail,
 }: ProjectProps): JSX.Element => {
   const [showModal, setShowModal] = useState(false);
+  const imgRef = useRef() as React.MutableRefObject<HTMLImageElement>;
+  const titleRef = useRef() as React.MutableRefObject<HTMLDivElement>;
+  const descriptionRef = useRef() as React.MutableRefObject<HTMLDivElement>;
+  const backRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 
   const closeModalHandler = useCallback((): void => {
     setShowModal(false);
@@ -35,6 +39,16 @@ const Project = ({
   const openModalHandler = useCallback((): void => {
     setShowModal(true);
   }, [setShowModal]);
+
+  useEffect(() => {
+    if (typeof window.orientation === 'undefined') {
+      const height =
+        (imgRef.current.getBoundingClientRect().width * 917) / 1678 +
+        titleRef.current.getBoundingClientRect().height +
+        descriptionRef.current.getBoundingClientRect().height;
+      backRef.current.style.height = height + 'px';
+    }
+  }, [backRef, imgRef, titleRef, descriptionRef]);
 
   return (
     <div>
@@ -47,13 +61,20 @@ const Project = ({
       </Modal>
       <div className={styles.project}>
         <div className={cx(styles.side, styles.front)}>
-          <img src={img} alt={title} className={styles.projectPicture}></img>
-          <div className={styles.projectTitle}>{title}</div>
-          <div className={styles.projectDetails}>
+          <img
+            ref={imgRef}
+            src={img}
+            alt={title}
+            className={styles.projectPicture}
+          />
+          <div ref={titleRef} className={styles.projectTitle}>
+            {title}
+          </div>
+          <div ref={descriptionRef} className={styles.projectDetails}>
             <p>{description}</p>
           </div>
         </div>
-        <div className={cx(styles.side, styles.back)}>
+        <div ref={backRef} className={cx(styles.side, styles.back)}>
           <ButtonSecondary width="fluid" clicked={openModalHandler}>
             Get to know the project
           </ButtonSecondary>

@@ -129,7 +129,7 @@ const projects: {
     img: undercooked,
     title: 'Undercooked!',
     description:
-      'Undercooked! is a fun cooking game. I built it from scratch using JavaScript/React for the frontend and Ruby on Rails for the backend. It was my graduation project from Flatiron School where I learned full stack web development.',
+      'Undercooked! is a fun cooking game. I built it from scratch using JavaScript/React for the frontend, Ruby on Rails for the backend and advanced CSS for game effects. It was my graduation project from Flatiron School where I learned full stack web development.',
     projectDetail: {
       title: 'Undercooked!',
       subTitle:
