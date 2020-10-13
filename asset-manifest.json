@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hai-nguyen/static/css/main.29903dbb.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.646130ef.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.646130ef.chunk.js.map",
+    "main.js": "/hai-nguyen/static/js/main.7d1d6caa.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.7d1d6caa.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
     "static/js/2.2db5edf4.chunk.js": "/hai-nguyen/static/js/2.2db5edf4.chunk.js",
     "static/js/2.2db5edf4.chunk.js.map": "/hai-nguyen/static/js/2.2db5edf4.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.dd4b3f3221a7cf1b72fc83c0c65fda49.js": "/hai-nguyen/precache-manifest.dd4b3f3221a7cf1b72fc83c0c65fda49.js",
+    "precache-manifest.0fbe8ef48421ed2e3e12a90300db4790.js": "/hai-nguyen/precache-manifest.0fbe8ef48421ed2e3e12a90300db4790.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
     "static/css/main.29903dbb.chunk.css.map": "/hai-nguyen/static/css/main.29903dbb.chunk.css.map",
     "static/js/2.2db5edf4.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.2db5edf4.chunk.js.LICENSE.txt",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.d0340237.js",
     "static/js/2.2db5edf4.chunk.js",
     "static/css/main.29903dbb.chunk.css",
-    "static/js/main.646130ef.chunk.js"
+    "static/js/main.7d1d6caa.chunk.js"
   ]
 }
