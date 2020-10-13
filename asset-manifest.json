@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hai-nguyen/static/css/main.ff4a1946.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.ae99976f.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.ae99976f.chunk.js.map",
+    "main.css": "/hai-nguyen/static/css/main.29903dbb.chunk.css",
+    "main.js": "/hai-nguyen/static/js/main.646130ef.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.646130ef.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
-    "static/js/2.a36279cc.chunk.js": "/hai-nguyen/static/js/2.a36279cc.chunk.js",
-    "static/js/2.a36279cc.chunk.js.map": "/hai-nguyen/static/js/2.a36279cc.chunk.js.map",
+    "static/js/2.2db5edf4.chunk.js": "/hai-nguyen/static/js/2.2db5edf4.chunk.js",
+    "static/js/2.2db5edf4.chunk.js.map": "/hai-nguyen/static/js/2.2db5edf4.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.248d69e59bc04649b1f098965de0a0f0.js": "/hai-nguyen/precache-manifest.248d69e59bc04649b1f098965de0a0f0.js",
+    "precache-manifest.dd4b3f3221a7cf1b72fc83c0c65fda49.js": "/hai-nguyen/precache-manifest.dd4b3f3221a7cf1b72fc83c0c65fda49.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
-    "static/css/main.ff4a1946.chunk.css.map": "/hai-nguyen/static/css/main.ff4a1946.chunk.css.map",
-    "static/js/2.a36279cc.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.a36279cc.chunk.js.LICENSE.txt",
+    "static/css/main.29903dbb.chunk.css.map": "/hai-nguyen/static/css/main.29903dbb.chunk.css.map",
+    "static/js/2.2db5edf4.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.2db5edf4.chunk.js.LICENSE.txt",
     "static/media/About.module.scss": "/hai-nguyen/static/media/about.86785ab3.jpg",
     "static/media/cfsa.jpg": "/hai-nguyen/static/media/cfsa.13d8dcf5.jpg",
     "static/media/enzyme.png": "/hai-nguyen/static/media/enzyme.5018a76b.png",
     "static/media/express.png": "/hai-nguyen/static/media/express.bd3a7cd2.png",
-    "static/media/ge.jpg": "/hai-nguyen/static/media/ge.71f6edbd.jpg",
+    "static/media/ge.jpg": "/hai-nguyen/static/media/ge.f70d052e.jpg",
     "static/media/hai-nguyen.jpg": "/hai-nguyen/static/media/hai-nguyen.db5105bd.jpg",
     "static/media/haiavatar.jpg": "/hai-nguyen/static/media/haiavatar.43bab67f.jpg",
     "static/media/hiant.jpg": "/hai-nguyen/static/media/hiant.03492720.jpg",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d0340237.js",
-    "static/js/2.a36279cc.chunk.js",
-    "static/css/main.ff4a1946.chunk.css",
-    "static/js/main.ae99976f.chunk.js"
+    "static/js/2.2db5edf4.chunk.js",
+    "static/css/main.29903dbb.chunk.css",
+    "static/js/main.646130ef.chunk.js"
   ]
 }
