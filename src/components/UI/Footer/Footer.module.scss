@@ -1,6 +1,8 @@
 @import '../../../sass/variables';
 
 .footer {
+  grid-row: 2 / span 1;
+
   background-image: linear-gradient(
     to right bottom,
     $color-secondary-light,
