@@ -9,7 +9,7 @@ import styles from './MainPage.module.scss';
 const MainPage = (): JSX.Element => {
   return (
     <div className={styles.container}>
-      {/* <Welcome /> */}
+      <Welcome />
       {/* <Projects /> */}
       <About />
       <Skills />
