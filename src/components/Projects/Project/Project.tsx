@@ -37,7 +37,7 @@ const Project = ({
   }, [setShowModal]);
 
   return (
-    <React.Fragment>
+    <div>
       <Modal show={showModal} onModalClose={closeModalHandler}>
         <ProjectDetail
           onModalClose={closeModalHandler}
@@ -59,7 +59,7 @@ const Project = ({
           </ButtonSecondary>
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

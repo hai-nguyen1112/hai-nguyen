@@ -23,18 +23,14 @@
     background-color: $color-grey-light-1;
 
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: min-content min-content min-content;
 
     .projectPicture {
-      grid-row: 1 / 2;
-      grid-column: 1 / -1;
       width: 100%;
     }
 
     .projectTitle {
-      grid-row: 2 / 3;
-      grid-column: 1 / -1;
       width: 90%;
       justify-self: center;
 
@@ -51,8 +47,6 @@
     }
 
     .projectDetails {
-      grid-row: 3 / 4;
-      grid-column: 1 / -1;
       width: 100%;
       padding: 0 3rem 3rem 3rem;
 
