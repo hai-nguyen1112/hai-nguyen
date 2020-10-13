@@ -24,13 +24,13 @@ const Layout = (props: LayoutProps): JSX.Element => {
 
   return (
     <div className={styles.container}>
-      <BackToTop />
+      {/* <BackToTop />
       <Navigation onOpenSideDrawer={openSideDrawerHandler} />
       <SideDrawer
         open={showSideDrawer}
         onCloseSideDrawer={closeSideDrawerHandler}
       />
-      <main className={styles.mainContainer}>{props.children}</main>
+      <main className={styles.mainContainer}>{props.children}</main> */}
       <Footer />
     </div>
   );
