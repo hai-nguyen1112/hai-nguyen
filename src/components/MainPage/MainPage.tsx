@@ -11,8 +11,8 @@ const MainPage = (): JSX.Element => {
     <div className={styles.container}>
       {/* <Welcome /> */}
       {/* <Projects /> */}
-      <About />
-      {/* <Skills /> */}
+      {/* <About /> */}
+      <Skills />
     </div>
   );
 };
