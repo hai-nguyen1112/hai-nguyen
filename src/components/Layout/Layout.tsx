@@ -29,8 +29,8 @@ const Layout = (props: LayoutProps): JSX.Element => {
       <SideDrawer
         open={showSideDrawer}
         onCloseSideDrawer={closeSideDrawerHandler}
-      />
-      <main className={styles.mainContainer}>{props.children}</main> */}
+      /> */}
+      <main className={styles.mainContainer}>{props.children}</main>
       <Footer />
     </div>
   );
