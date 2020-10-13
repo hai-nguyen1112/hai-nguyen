@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "295b81c2530cf1ffaa4a32ed8bbd0590",
+    "revision": "dd2b521ea23e3f3e88bff0ddb748f911",
     "url": "/hai-nguyen/index.html"
   },
   {
-    "revision": "5aee2657e0c8cc9a58ad",
-    "url": "/hai-nguyen/static/css/main.2300dae6.chunk.css"
+    "revision": "0ba0323a2b16a93b36c9",
+    "url": "/hai-nguyen/static/css/main.9dff40c0.chunk.css"
   },
   {
-    "revision": "787afcb34834f68f8a57",
-    "url": "/hai-nguyen/static/js/2.05f0b977.chunk.js"
+    "revision": "8bb1f535e6e7b16962f0",
+    "url": "/hai-nguyen/static/js/2.1b83dc53.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/hai-nguyen/static/js/2.05f0b977.chunk.js.LICENSE.txt"
+    "url": "/hai-nguyen/static/js/2.1b83dc53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5aee2657e0c8cc9a58ad",
-    "url": "/hai-nguyen/static/js/main.6a8a5803.chunk.js"
+    "revision": "0ba0323a2b16a93b36c9",
+    "url": "/hai-nguyen/static/js/main.ffca9ec3.chunk.js"
   },
   {
     "revision": "55a00dcba4209a7e54e5",
@@ -28,10 +28,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hai-nguyen/static/media/about.86785ab3.jpg"
   },
   {
-    "revision": "13d8dcf5f9d81de0dae4db7d954edb19",
-    "url": "/hai-nguyen/static/media/cfsa.13d8dcf5.jpg"
-  },
-  {
     "revision": "5018a76b97460a4b505cb980cd28f5f5",
     "url": "/hai-nguyen/static/media/enzyme.5018a76b.png"
   },
@@ -40,20 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hai-nguyen/static/media/express.bd3a7cd2.png"
   },
   {
-    "revision": "71f6edbd7607f01b04131ff091af8f16",
-    "url": "/hai-nguyen/static/media/ge.71f6edbd.jpg"
-  },
-  {
-    "revision": "db5105bda8fa83cd77363d123f9b66b8",
-    "url": "/hai-nguyen/static/media/hai-nguyen.db5105bd.jpg"
-  },
-  {
     "revision": "43bab67fc5c0172c09338f0524cf7f82",
     "url": "/hai-nguyen/static/media/haiavatar.43bab67f.jpg"
-  },
-  {
-    "revision": "03492720ddf1009be6da002eb1112afd",
-    "url": "/hai-nguyen/static/media/hiant.03492720.jpg"
   },
   {
     "revision": "466c972021323d12420fc20a016f5b28",
@@ -86,13 +70,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fead1d450a49086974fec606e8dbb781",
     "url": "/hai-nguyen/static/media/typescript.fead1d45.jpg"
-  },
-  {
-    "revision": "9da375a248ac3e03943cfae147c91a54",
-    "url": "/hai-nguyen/static/media/undercooked.9da375a2.jpg"
-  },
-  {
-    "revision": "ac8945f22aded8c83d8d20972e3c30c6",
-    "url": "/hai-nguyen/static/media/web.ac8945f2.png"
   }
 ]);
