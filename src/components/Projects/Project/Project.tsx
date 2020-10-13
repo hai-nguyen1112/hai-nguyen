@@ -42,6 +42,7 @@ const Project = ({
         <ProjectDetail
           onModalClose={closeModalHandler}
           projectDetail={projectDetail}
+          show={showModal}
         />
       </Modal>
       <div className={styles.project}>

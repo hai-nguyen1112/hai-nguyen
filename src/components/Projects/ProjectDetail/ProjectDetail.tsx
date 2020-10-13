@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import githubLogo from '../../../img/github.png';
 import webLogo from '../../../img/web.png';
 import styles from './ProjectDetail.module.scss';
 
 interface ProjectDetailProps {
+  show: boolean;
   onModalClose: () => void;
   projectDetail: {
     title: string;
@@ -19,9 +20,16 @@ interface ProjectDetailProps {
 const ProjectDetail = ({
   onModalClose,
   projectDetail,
+  show,
 }: ProjectDetailProps): JSX.Element => {
+  const modalRef = useRef() as React.MutableRefObject<HTMLDivElement>;
+
+  if (show) {
+    modalRef.current.scrollTo(0, 0);
+  }
+
   return (
-    <div className={styles.container}>
+    <div ref={modalRef} className={styles.container}>
       <button className={styles.closeButton} onClick={onModalClose}>
         &times;
       </button>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import Backdrop from '../../UI/Backdrop';
 import { ButtonSecondary } from '../../UI/Button';
@@ -11,16 +11,18 @@ type SideDrawerProps = {
 };
 
 const SideDrawer = (props: SideDrawerProps): JSX.Element => {
+  const sideDrawerRef = useRef() as React.MutableRefObject<HTMLDivElement>;
   let attachedClasses: string[] = [styles.sideDrawer, styles.closed];
 
   if (props.open) {
     attachedClasses = [styles.sideDrawer, styles.open];
+    sideDrawerRef.current.scrollTo(0, 0);
   }
 
   return (
     <React.Fragment>
       <Backdrop show={props.open} clicked={props.onCloseSideDrawer} />
-      <div className={attachedClasses.join(' ')}>
+      <div ref={sideDrawerRef} className={attachedClasses.join(' ')}>
         <img alt="hai avatar" src={hai} className={styles.avatar} />
         <a href="#welcome">
           <ButtonSecondary width="fluid" clicked={props.onCloseSideDrawer}>
@@ -45,6 +47,7 @@ const SideDrawer = (props: SideDrawerProps): JSX.Element => {
             My skills
           </ButtonSecondary>
         </a>
+        <div></div>
       </div>
     </React.Fragment>
   );
