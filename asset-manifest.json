@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hai-nguyen/static/css/main.38eaa4c6.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.8aafabeb.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.8aafabeb.chunk.js.map",
+    "main.css": "/hai-nguyen/static/css/main.78d89d45.chunk.css",
+    "main.js": "/hai-nguyen/static/js/main.546949f3.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.546949f3.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
     "static/js/2.a36279cc.chunk.js": "/hai-nguyen/static/js/2.a36279cc.chunk.js",
     "static/js/2.a36279cc.chunk.js.map": "/hai-nguyen/static/js/2.a36279cc.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.bafd9ef8724ba0052585ee9ea2370080.js": "/hai-nguyen/precache-manifest.bafd9ef8724ba0052585ee9ea2370080.js",
+    "precache-manifest.3efc8122d4fc79dd017fa12a1f0a13bb.js": "/hai-nguyen/precache-manifest.3efc8122d4fc79dd017fa12a1f0a13bb.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
-    "static/css/main.38eaa4c6.chunk.css.map": "/hai-nguyen/static/css/main.38eaa4c6.chunk.css.map",
+    "static/css/main.78d89d45.chunk.css.map": "/hai-nguyen/static/css/main.78d89d45.chunk.css.map",
     "static/js/2.a36279cc.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.a36279cc.chunk.js.LICENSE.txt",
     "static/media/About.module.scss": "/hai-nguyen/static/media/about.86785ab3.jpg",
     "static/media/cfsa.jpg": "/hai-nguyen/static/media/cfsa.13d8dcf5.jpg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0340237.js",
     "static/js/2.a36279cc.chunk.js",
-    "static/css/main.38eaa4c6.chunk.css",
-    "static/js/main.8aafabeb.chunk.js"
+    "static/css/main.78d89d45.chunk.css",
+    "static/js/main.546949f3.chunk.js"
   ]
 }

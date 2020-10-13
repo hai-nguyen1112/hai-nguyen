@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9d1768c01e5b260506b6a2a6b781767",
+    "revision": "be015dec38464ddfc21b7adc668296b2",
     "url": "/hai-nguyen/index.html"
   },
   {
-    "revision": "0801d6873dee734d9008",
-    "url": "/hai-nguyen/static/css/main.38eaa4c6.chunk.css"
+    "revision": "57366c00050b6d632491",
+    "url": "/hai-nguyen/static/css/main.78d89d45.chunk.css"
   },
   {
     "revision": "c103d38814a73a2c5fc9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hai-nguyen/static/js/2.a36279cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0801d6873dee734d9008",
-    "url": "/hai-nguyen/static/js/main.8aafabeb.chunk.js"
+    "revision": "57366c00050b6d632491",
+    "url": "/hai-nguyen/static/js/main.546949f3.chunk.js"
   },
   {
     "revision": "55a00dcba4209a7e54e5",
