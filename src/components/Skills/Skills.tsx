@@ -36,6 +36,7 @@ const Skills = (): JSX.Element => {
       <div className={styles.cards}>{skillsList}</div>
       <div className={styles.otherSkills}>
         <div>Other skills</div>
+        <div>Server-Side Rendering</div>
         <div>HTML5</div>
         <div>RESTful APIs</div>
         <div>Postman</div>
