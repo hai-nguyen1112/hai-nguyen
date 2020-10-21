@@ -1,7 +1,7 @@
 # Hai Nguyen
 
-## Full stack software engineer
+### Full stack software engineer
 
-## Personal Website/Porfolio Page
+### Personal Website/Porfolio Page
 
-## Link to Demo: [placeholder for now]
+### Demo: https://hai-nguyen1112.github.io/hai-nguyen/
