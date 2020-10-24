@@ -3,24 +3,20 @@ import React, { useRef } from 'react';
 import githubLogo from '../../../img/github.png';
 import webLogo from '../../../img/web.png';
 import styles from './ProjectDetail.module.scss';
+import { ProjectDetailType } from '../../../redux/actions/userActions';
 
 interface ProjectDetailProps {
   show: boolean;
   onModalClose: () => void;
-  projectDetail: {
-    title: string;
-    subTitle: string;
-    details: string[];
-    gitRepoLink: string;
-    demoLink: string;
-    note: string;
-  };
+  projectDetail: ProjectDetailType;
+  title: string;
 }
 
 const ProjectDetail = ({
   onModalClose,
   projectDetail,
   show,
+  title,
 }: ProjectDetailProps): JSX.Element => {
   const modalRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 
@@ -33,7 +29,7 @@ const ProjectDetail = ({
       <button className={styles.closeButton} onClick={onModalClose}>
         &times;
       </button>
-      <h3 className={styles.projectTitle}>{projectDetail.title}</h3>
+      <h3 className={styles.projectTitle}>{title}</h3>
       <h4 className={styles.projectSubtitle}>{projectDetail.subTitle}</h4>
       <ul>
         <li>
@@ -47,16 +43,34 @@ const ProjectDetail = ({
         <li>
           <div>
             <img src={githubLogo} alt="logo" />
-            {projectDetail.gitRepoLink.length !== 0 ? (
+            {projectDetail.gitRepoLinks.length === 0 ? (
+              <span>These repositories are confidential.</span>
+            ) : projectDetail.gitRepoLinks.length === 1 ? (
               <a
-                href={projectDetail.gitRepoLink}
+                href={projectDetail.gitRepoLinks[0]}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Go to Git repo
               </a>
             ) : (
-              <span>This repo is confidential.</span>
+              <>
+                <a
+                  href={projectDetail.gitRepoLinks[0]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go to FE repo
+                </a>
+                &nbsp; &nbsp;
+                <a
+                  href={projectDetail.gitRepoLinks[1]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go to BE repo
+                </a>
+              </>
             )}
           </div>
           <div>
