@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hai-nguyen/static/css/main.a5bdc234.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.a08c57cf.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.a08c57cf.chunk.js.map",
+    "main.css": "/hai-nguyen/static/css/main.ff2e73e7.chunk.css",
+    "main.js": "/hai-nguyen/static/js/main.e75181d1.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.e75181d1.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
-    "static/js/2.31eed9cf.chunk.js": "/hai-nguyen/static/js/2.31eed9cf.chunk.js",
-    "static/js/2.31eed9cf.chunk.js.map": "/hai-nguyen/static/js/2.31eed9cf.chunk.js.map",
+    "static/js/2.a23ce0e1.chunk.js": "/hai-nguyen/static/js/2.a23ce0e1.chunk.js",
+    "static/js/2.a23ce0e1.chunk.js.map": "/hai-nguyen/static/js/2.a23ce0e1.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.10aa2d9785409bf80a8f3dcb75294d03.js": "/hai-nguyen/precache-manifest.10aa2d9785409bf80a8f3dcb75294d03.js",
+    "precache-manifest.589e7cd5de77b110edaa470c7fab0302.js": "/hai-nguyen/precache-manifest.589e7cd5de77b110edaa470c7fab0302.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
-    "static/css/main.a5bdc234.chunk.css.map": "/hai-nguyen/static/css/main.a5bdc234.chunk.css.map",
-    "static/js/2.31eed9cf.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.31eed9cf.chunk.js.LICENSE.txt",
+    "static/css/main.ff2e73e7.chunk.css.map": "/hai-nguyen/static/css/main.ff2e73e7.chunk.css.map",
+    "static/js/2.a23ce0e1.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.a23ce0e1.chunk.js.LICENSE.txt",
     "static/media/About.module.scss": "/hai-nguyen/static/media/about.86785ab3.jpg",
     "static/media/cfsa.jpg": "/hai-nguyen/static/media/cfsa.13d8dcf5.jpg",
     "static/media/enzyme.png": "/hai-nguyen/static/media/enzyme.5018a76b.png",
@@ -24,7 +24,7 @@
     "static/media/mongodb.png": "/hai-nguyen/static/media/mongodb.50f50ad5.png",
     "static/media/mongoose.png": "/hai-nguyen/static/media/mongoose.89e2c62c.png",
     "static/media/nodejs.png": "/hai-nguyen/static/media/nodejs.49eb264a.png",
-    "static/media/react.png": "/hai-nguyen/static/media/react.b4d50f46.png",
+    "static/media/react.png": "/hai-nguyen/static/media/react.914c5105.png",
     "static/media/redux.png": "/hai-nguyen/static/media/redux.822be8db.png",
     "static/media/sass.png": "/hai-nguyen/static/media/sass.106ecf4a.png",
     "static/media/typescript.jpg": "/hai-nguyen/static/media/typescript.fead1d45.jpg",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d0340237.js",
-    "static/js/2.31eed9cf.chunk.js",
-    "static/css/main.a5bdc234.chunk.css",
-    "static/js/main.a08c57cf.chunk.js"
+    "static/js/2.a23ce0e1.chunk.js",
+    "static/css/main.ff2e73e7.chunk.css",
+    "static/js/main.e75181d1.chunk.js"
   ]
 }
