@@ -90,7 +90,7 @@
       padding: 3rem;
       background-color: $color-grey-light-1;
       box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
-      transform: skewX(-12deg);
+      //transform: skewX(-12deg);
 
       display: grid;
       grid-template-columns: max-content 1fr;
@@ -113,7 +113,7 @@
         border-radius: 50%;
         align-self: center;
         justify-self: center;
-        transform: skewX(12deg);
+        //transform: skewX(12deg);
 
         @media only screen and (max-width: 56.25em) {
           transform: skewX(0deg);
@@ -123,7 +123,7 @@
       .name {
         @include heading-3;
         align-self: flex-start;
-        transform: skewX(12deg);
+        //transform: skewX(12deg);
 
         @media only screen and (max-width: 56.25em) {
           justify-self: center;
@@ -142,7 +142,7 @@
         @media only screen and (min-width: 56.25em) {
           grid-column: 2 / span 1;
           grid-row: 1 / span 2;
-          transform: skewX(12deg);
+          //transform: skewX(12deg);
           font-size: 1.8rem;
         }
 

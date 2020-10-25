@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from 'react';
+import { connect } from 'react-redux';
 
 import Backdrop from '../../UI/Backdrop';
 import { ButtonSecondary } from '../../UI/Button';
-import hai from '../../../img/haiavatar.jpg';
 import styles from './SideDrawer.module.scss';
+import { StoreState } from '../../../redux/reducers/rootReducer';
+import haiavatar from '../../../img/haiavatar.jpg';
 
 type SideDrawerProps = {
   open: boolean;
@@ -33,7 +35,7 @@ const SideDrawer = (props: SideDrawerProps): JSX.Element => {
     <React.Fragment>
       <Backdrop show={open} clicked={onCloseSideDrawer} />
       <div ref={sideDrawerRef} className={attachedClasses.join(' ')}>
-        <img alt="hai avatar" src={hai} className={styles.avatar} />
+        <img alt="hai avatar" src={haiavatar} className={styles.avatar} />
         <a href="#welcome">
           <ButtonSecondary width="fluid" clicked={onCloseSideDrawer}>
             Back to top
@@ -63,4 +65,10 @@ const SideDrawer = (props: SideDrawerProps): JSX.Element => {
   );
 };
 
-export default SideDrawer;
+const mapStateToProps = (state: StoreState): { photo: string } => {
+  return {
+    photo: state.user.user.photo,
+  };
+};
+
+export default connect(mapStateToProps)(SideDrawer);

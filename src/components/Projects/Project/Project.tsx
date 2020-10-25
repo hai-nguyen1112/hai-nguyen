@@ -5,19 +5,13 @@ import ProjectDetail from '../ProjectDetail';
 import { ButtonSecondary } from '../../UI/Button';
 import cx from 'classnames';
 import styles from './Project.module.scss';
+import { ProjectDetailType } from '../../../redux/actions/userActions';
 
 type ProjectProps = {
   img: string;
   title: string;
   description: string;
-  projectDetail: {
-    title: string;
-    subTitle: string;
-    details: string[];
-    gitRepoLink: string;
-    demoLink: string;
-    note: string;
-  };
+  projectDetail: ProjectDetailType;
 };
 
 const Project = ({
@@ -56,6 +50,7 @@ const Project = ({
         <ProjectDetail
           onModalClose={closeModalHandler}
           projectDetail={projectDetail}
+          title={title}
           show={showModal}
         />
       </Modal>
@@ -63,7 +58,7 @@ const Project = ({
         <div className={cx(styles.side, styles.front)}>
           <img
             ref={imgRef}
-            src={img}
+            src={`${img}`}
             alt={title}
             className={styles.projectPicture}
           />
