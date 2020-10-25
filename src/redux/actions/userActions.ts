@@ -23,9 +23,9 @@ export interface User {
   photo: string;
   role: string;
   intro: string;
-  education: string[];
+  education: string[][];
   employmentHistory: string[][];
-  skills: string[];
+  skills: { img: string; title: string; description: string; id: string }[];
   name: string;
   email: string;
   projects: ProjectType[];

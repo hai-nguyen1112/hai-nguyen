@@ -6,6 +6,7 @@ import { ButtonSecondary } from '../../UI/Button';
 import cx from 'classnames';
 import styles from './Project.module.scss';
 import { ProjectDetailType } from '../../../redux/actions/userActions';
+import { apiUrl } from '../../../utils';
 
 type ProjectProps = {
   img: string;
@@ -58,7 +59,7 @@ const Project = ({
         <div className={cx(styles.side, styles.front)}>
           <img
             ref={imgRef}
-            src={`https://hai-nguyen-api.herokuapp.com/img/${img}`}
+            src={`${apiUrl}/img/${img}`}
             alt={title}
             className={styles.projectPicture}
           />
