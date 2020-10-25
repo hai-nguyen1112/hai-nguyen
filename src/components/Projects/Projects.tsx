@@ -5,6 +5,11 @@ import Project from './Project';
 import styles from './Projects.module.scss';
 import { StoreState } from '../../redux/reducers/rootReducer';
 import { ProjectType } from '../../redux/actions/userActions';
+import hainguyen from '../../img/hai-nguyen.jpg';
+import ge from '../../img/ge.jpg';
+import cfsa from '../../img/cfsa.jpg';
+import undercooked from '../../img/undercooked.jpg';
+import hiant from '../../img/hiant.jpg';
 
 interface ProjectsProps {
   projects: ProjectType[];
@@ -13,17 +18,28 @@ interface ProjectsProps {
 const Projects = (props: ProjectsProps): JSX.Element => {
   const { projects } = props;
 
-  const projectsList: JSX.Element[] = projects.map(
-    (project, index: number): JSX.Element => (
-      <Project
-        key={index + project.title}
-        img={project.img}
-        title={project.title}
-        description={project.description}
-        projectDetail={project.projectDetail}
-      />
-    )
-  );
+  let projectsList: JSX.Element[] = [];
+  if (projects && projects.length > 0) {
+    for (const project of projects) {
+      if (project.img === 'hai-nguyen.jpg') project.img = hainguyen;
+      if (project.img === 'ge.jpg') project.img = ge;
+      if (project.img === 'cfsa.jpg') project.img = cfsa;
+      if (project.img === 'undercooked.jpg') project.img = undercooked;
+      if (project.img === 'hiant.jpg') project.img = hiant;
+    }
+
+    projectsList = projects.map(
+      (project, index: number): JSX.Element => (
+        <Project
+          key={index + project.title}
+          img={project.img}
+          title={project.title}
+          description={project.description}
+          projectDetail={project.projectDetail}
+        />
+      )
+    );
+  }
 
   return (
     <div id="projects" className={styles.container}>

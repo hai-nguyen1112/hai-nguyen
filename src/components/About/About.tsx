@@ -3,13 +3,13 @@ import { useSelector } from 'react-redux';
 
 import styles from './About.module.scss';
 import cx from 'classnames';
-import { apiUrl } from '../../utils';
 import { StoreState } from '../../redux/reducers/rootReducer';
 import { User } from '../../redux/actions/userActions';
+import haiavatar from '../../img/haiavatar.jpg';
 
 const About = (): JSX.Element => {
   const user: User = useSelector((state: StoreState) => state.user.user);
-  const { photo, name, intro, education, employmentHistory } = user;
+  const { name, intro, education, employmentHistory } = user;
 
   let educationDetails: JSX.Element[] = [];
   if (education && education.length > 0) {
@@ -43,11 +43,7 @@ const About = (): JSX.Element => {
     <div id="about" className={cx(styles.about, 'mt-sm')}>
       <div className={styles.aboutBox}>
         <div className={styles.aboutMe}>
-          <img
-            src={`${apiUrl}/img/${photo}`}
-            alt="avatar"
-            className={styles.avatar}
-          />
+          <img src={haiavatar} alt="avatar" className={styles.avatar} />
           <h4 className={styles.name}>{name}</h4>
           <p className={styles.intro}>{intro}</p>
         </div>

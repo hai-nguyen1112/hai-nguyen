@@ -5,16 +5,15 @@ import Backdrop from '../../UI/Backdrop';
 import { ButtonSecondary } from '../../UI/Button';
 import styles from './SideDrawer.module.scss';
 import { StoreState } from '../../../redux/reducers/rootReducer';
-import { apiUrl } from '../../../utils';
+import haiavatar from '../../../img/haiavatar.jpg';
 
 type SideDrawerProps = {
   open: boolean;
   onCloseSideDrawer: () => void;
-  photo: string;
 };
 
 const SideDrawer = (props: SideDrawerProps): JSX.Element => {
-  const { open, onCloseSideDrawer, photo } = props;
+  const { open, onCloseSideDrawer } = props;
   const sideDrawerRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 
   let attachedClasses: string[] = [styles.sideDrawer, styles.closed];
@@ -36,11 +35,7 @@ const SideDrawer = (props: SideDrawerProps): JSX.Element => {
     <React.Fragment>
       <Backdrop show={open} clicked={onCloseSideDrawer} />
       <div ref={sideDrawerRef} className={attachedClasses.join(' ')}>
-        <img
-          alt="hai avatar"
-          src={`${apiUrl}/img/${photo}`}
-          className={styles.avatar}
-        />
+        <img alt="hai avatar" src={haiavatar} className={styles.avatar} />
         <a href="#welcome">
           <ButtonSecondary width="fluid" clicked={onCloseSideDrawer}>
             Back to top

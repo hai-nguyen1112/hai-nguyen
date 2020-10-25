@@ -7,6 +7,8 @@ import { StoreState } from './redux/reducers/rootReducer';
 import { UserState } from './redux/reducers/userReducer';
 import Layout from './components/Layout';
 import MainPage from './components/MainPage';
+import Spinner from './components/UI/Spinner';
+import ErrorMessage from './components/UI/ErrorMessage';
 
 interface AppProps {
   user: UserState;
@@ -29,7 +31,13 @@ const App = (props: AppProps): JSX.Element => {
 
   return (
     <>
-      {user.isLoadingUser ? <div>Loading...</div> : <Layout>{routes}</Layout>}
+      {user.isLoadingUser ? (
+        <Spinner />
+      ) : user.errorMessage.length > 0 ? (
+        <ErrorMessage />
+      ) : (
+        <Layout>{routes}</Layout>
+      )}
     </>
   );
 };
