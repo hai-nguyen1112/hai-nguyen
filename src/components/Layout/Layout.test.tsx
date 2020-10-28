@@ -16,6 +16,11 @@ describe('<Layout />', (): void => {
       </Layout>
     );
   });
+
+  it('should have class name as container', () => {
+    expect(wrapper.hasClass('container')).toEqual(true);
+  });
+
   it('should render one <BackToTop /> component', (): void => {
     expect(wrapper.find(BackToTop)).toHaveLength(1);
   });
@@ -33,6 +38,11 @@ describe('<Layout />', (): void => {
   });
 
   it('should render <main><div></div></main>', (): void => {
-    expect(wrapper.html()).toContain('<main><div></div></main>');
+    expect(wrapper.find('main')).toHaveLength(1);
+    expect(wrapper.find('main').render().find('div')).toHaveLength(1);
+  });
+
+  test('the main element should have class name as mainContainer', () => {
+    expect(wrapper.find('main').hasClass('mainContainer')).toEqual(true);
   });
 });
