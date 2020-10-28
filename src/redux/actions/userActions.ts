@@ -79,7 +79,7 @@ const fetchUserStart = (): FetchUserStartAction => {
   };
 };
 
-const fetchUserSuccess = (user: User): FetchUserSuccessAction => {
+export const fetchUserSuccess = (user: User): FetchUserSuccessAction => {
   return {
     type: ActionTypes.FETCH_USER_SUCCESS,
     user: user,

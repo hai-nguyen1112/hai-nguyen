@@ -15,7 +15,7 @@ interface AppProps {
   fetchUser: () => void;
 }
 
-const App = (props: AppProps): JSX.Element => {
+export const _App = (props: AppProps): JSX.Element => {
   const { fetchUser, user } = props;
 
   useEffect(() => {
@@ -48,4 +48,4 @@ const mapStateToProps = (state: StoreState): { user: UserState } => {
   };
 };
 
-export default connect(mapStateToProps, { fetchUser })(App);
+export default connect(mapStateToProps, { fetchUser })(_App);
