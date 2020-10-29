@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hai-nguyen/static/css/main.ff2e73e7.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.e75181d1.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.e75181d1.chunk.js.map",
+    "main.js": "/hai-nguyen/static/js/main.da153dfd.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.da153dfd.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
-    "static/js/2.a23ce0e1.chunk.js": "/hai-nguyen/static/js/2.a23ce0e1.chunk.js",
-    "static/js/2.a23ce0e1.chunk.js.map": "/hai-nguyen/static/js/2.a23ce0e1.chunk.js.map",
+    "static/js/2.8b9bd8cc.chunk.js": "/hai-nguyen/static/js/2.8b9bd8cc.chunk.js",
+    "static/js/2.8b9bd8cc.chunk.js.map": "/hai-nguyen/static/js/2.8b9bd8cc.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.589e7cd5de77b110edaa470c7fab0302.js": "/hai-nguyen/precache-manifest.589e7cd5de77b110edaa470c7fab0302.js",
+    "precache-manifest.f881b5c474b03d0f6106aa340462efed.js": "/hai-nguyen/precache-manifest.f881b5c474b03d0f6106aa340462efed.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
     "static/css/main.ff2e73e7.chunk.css.map": "/hai-nguyen/static/css/main.ff2e73e7.chunk.css.map",
-    "static/js/2.a23ce0e1.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.a23ce0e1.chunk.js.LICENSE.txt",
+    "static/js/2.8b9bd8cc.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.8b9bd8cc.chunk.js.LICENSE.txt",
     "static/media/About.module.scss": "/hai-nguyen/static/media/about.86785ab3.jpg",
     "static/media/cfsa.jpg": "/hai-nguyen/static/media/cfsa.13d8dcf5.jpg",
     "static/media/enzyme.png": "/hai-nguyen/static/media/enzyme.5018a76b.png",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d0340237.js",
-    "static/js/2.a23ce0e1.chunk.js",
+    "static/js/2.8b9bd8cc.chunk.js",
     "static/css/main.ff2e73e7.chunk.css",
-    "static/js/main.e75181d1.chunk.js"
+    "static/js/main.da153dfd.chunk.js"
   ]
 }
