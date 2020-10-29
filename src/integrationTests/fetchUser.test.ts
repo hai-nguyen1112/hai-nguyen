@@ -7,10 +7,11 @@ import {
   fetchUserFail,
 } from '../redux/actions';
 import { StoreState } from '../redux/reducers/rootReducer';
+import { User } from '../redux/actions/userActions';
 
 describe('fetchUser action dispatcher', () => {
   test('updates state successfully when fetchUser starts', () => {
-    const state: StoreState = {
+    const initialState: StoreState = {
       user: {
         user: {
           id: '',
@@ -29,14 +30,14 @@ describe('fetchUser action dispatcher', () => {
       },
     };
 
-    const store = storeFactory(state);
+    const store = storeFactory(initialState);
 
     store.dispatch(fetchUserStart());
 
     const expectedState: StoreState = {
-      ...state,
+      ...initialState,
       user: {
-        ...state.user,
+        ...initialState.user,
         isLoadingUser: true,
       },
     };
@@ -46,7 +47,7 @@ describe('fetchUser action dispatcher', () => {
   });
 
   test('updates state successfully when fetchUser succeeds', () => {
-    const state: StoreState = {
+    const initialState: StoreState = {
       user: {
         user: {
           id: '',
@@ -65,9 +66,9 @@ describe('fetchUser action dispatcher', () => {
       },
     };
 
-    const store = storeFactory(state);
+    const store = storeFactory(initialState);
 
-    const fetchedData = {
+    const fetchedData: User = {
       id: '123',
       photo: 'photo.jpg',
       role: 'user',
@@ -104,9 +105,9 @@ describe('fetchUser action dispatcher', () => {
     store.dispatch(fetchUserSuccess(fetchedData));
 
     const expectedState = {
-      ...state,
+      ...initialState,
       user: {
-        ...state.user,
+        ...initialState.user,
         user: {
           id: '123',
           photo: 'photo.jpg',
@@ -151,7 +152,7 @@ describe('fetchUser action dispatcher', () => {
   });
 
   test('updates state successfully when fetchUser fails', () => {
-    const state: StoreState = {
+    const initialState: StoreState = {
       user: {
         user: {
           id: '',
@@ -170,14 +171,14 @@ describe('fetchUser action dispatcher', () => {
       },
     };
 
-    const store = storeFactory(state);
+    const store = storeFactory(initialState);
 
     store.dispatch(fetchUserFail('Something went wrong!'));
 
     const expectedState: StoreState = {
-      ...state,
+      ...initialState,
       user: {
-        ...state.user,
+        ...initialState.user,
         isLoadingUser: false,
         errorMessage: 'Something went wrong!',
       },
