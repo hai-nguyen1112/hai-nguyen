@@ -71,7 +71,7 @@ export const fetchUser = () => {
   };
 };
 
-const fetchUserStart = (): FetchUserStartAction => {
+export const fetchUserStart = (): FetchUserStartAction => {
   return {
     type: ActionTypes.FETCH_USER_START,
     isLoadingUser: true,
@@ -88,7 +88,7 @@ export const fetchUserSuccess = (user: User): FetchUserSuccessAction => {
   };
 };
 
-const fetchUserFail = (message: string): FetchUserFailAction => {
+export const fetchUserFail = (message: string): FetchUserFailAction => {
   return {
     type: ActionTypes.FETCH_USER_FAIL,
     isLoadingUser: false,

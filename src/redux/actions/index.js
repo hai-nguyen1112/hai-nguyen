@@ -1,2 +1,7 @@
 export { ActionTypes } from './actionTypes';
-export { fetchUser } from './userActions';
+export {
+  fetchUser,
+  fetchUserStart,
+  fetchUserSuccess,
+  fetchUserFail,
+} from './userActions';
