@@ -15,7 +15,7 @@ describe('<BackToTop />', (): void => {
 
   test('the page should be scrolled to the top upon anchor link click', (): void => {
     const anchorHref: string | undefined = wrapper.find('a').prop('href');
-    expect(anchorHref).toEqual('!#');
+    expect(anchorHref).toEqual('#welcome');
   });
 
   it('should render two <div/> components', (): void => {
