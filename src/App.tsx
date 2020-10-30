@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Route, Switch, Redirect } from 'react-router';
 import { connect } from 'react-redux';
 
@@ -10,7 +10,7 @@ import MainPage from './components/MainPage';
 import Spinner from './components/UI/Spinner';
 import ErrorMessage from './components/UI/ErrorMessage';
 
-interface AppProps {
+export interface AppProps {
   user: UserState;
   fetchUser: () => void;
 }
@@ -18,7 +18,7 @@ interface AppProps {
 export const _App = (props: AppProps): JSX.Element => {
   const { fetchUser, user } = props;
 
-  useEffect(() => {
+  React.useEffect(() => {
     fetchUser();
   }, [fetchUser]);
 
