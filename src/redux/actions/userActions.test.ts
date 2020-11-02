@@ -1,16 +1,16 @@
 import moxios from 'moxios';
 
-import { storeFactory } from '../../utils';
+import { axiosInstance, storeFactory } from '../../utils';
 import { StoreState } from '../reducers/rootReducer';
 import { fetchUser } from '.';
 import { User } from './userActions';
 
 describe('fetchUser action creator', () => {
   beforeEach(() => {
-    moxios.install();
+    moxios.install(axiosInstance);
   });
   afterEach(() => {
-    moxios.uninstall();
+    moxios.uninstall(axiosInstance);
   });
   test('adds fetched user data to state', () => {
     const fetchedData: User = {
@@ -72,7 +72,7 @@ describe('fetchUser action creator', () => {
       const request = moxios.requests.mostRecent();
       request.respondWith({
         status: 200,
-        response: fetchedData,
+        response: { data: fetchedData },
       });
     });
 

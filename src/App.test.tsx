@@ -3,14 +3,14 @@ import { shallow, mount, ShallowWrapper, ReactWrapper } from 'enzyme';
 import { MemoryRouter, Switch, Route, Redirect } from 'react-router';
 import { Provider } from 'react-redux';
 
-import App from './App';
-import { _App } from './App';
+import App, { _App, AppProps } from './App';
 import MainPage from './components/MainPage';
 import Layout from './components/Layout';
 import Spinner from './components/UI/Spinner';
 import ErrorMessage from './components/UI/ErrorMessage';
 import { storeFactory } from './utils/storeFactory';
 import { StoreState } from './redux/reducers/rootReducer';
+import { fetchUser } from './redux/actions';
 
 const setupShallow = (state: StoreState) => {
   const store = storeFactory(state);
@@ -158,4 +158,78 @@ describe('<App />', (): void => {
       expect(wrapper.find(MainPage)).toHaveLength(1);
     });
   });
+});
+
+describe('redux props', () => {
+  const state: StoreState = {
+    user: {
+      user: {
+        id: '',
+        photo: '',
+        role: '',
+        intro: '',
+        education: [],
+        employmentHistory: [],
+        skills: [],
+        name: '',
+        email: '',
+        projects: [],
+      },
+      isLoadingUser: false,
+      errorMessage: '',
+    },
+  };
+
+  const store = storeFactory(state);
+
+  const appProps = { store: store };
+
+  let shallowWrapper: ShallowWrapper;
+
+  beforeEach(() => {
+    shallowWrapper = shallow(<App {...appProps} />).dive();
+  });
+
+  test('<App /> has user piece of state as prop', () => {
+    expect(shallowWrapper.props().user).toEqual(state.user);
+  });
+
+  test('<App /> has fetchUser action creator as prop', () => {
+    expect(shallowWrapper.props().fetchUser).toBeInstanceOf(Function);
+  });
+});
+
+test('fetchUser runs on App mount', () => {
+  const fetchUserMock = jest.fn();
+
+  const appProps: AppProps = {
+    user: {
+      user: {
+        id: '',
+        photo: '',
+        role: '',
+        intro: '',
+        education: [],
+        employmentHistory: [],
+        skills: [],
+        name: '',
+        email: '',
+        projects: [],
+      },
+      isLoadingUser: false,
+      errorMessage: '',
+    },
+    fetchUser: fetchUserMock,
+  };
+
+  // run useEffect
+  jest.spyOn(React, 'useEffect').mockImplementation((f) => f());
+
+  // render <App /> with fetchUserMock as the fetchUser prop
+  shallow(<_App {...appProps} />);
+
+  // check to see if mock ran
+  const fetchUserCallCount = fetchUserMock.mock.calls.length;
+
+  expect(fetchUserCallCount).toBe(1);
 });
