@@ -60,6 +60,8 @@ const Skills = (props: SkillsProps): JSX.Element => {
       <div className={styles.cards}>{skillsList}</div>
       <div className={styles.otherSkills}>
         <div>Other skills</div>
+        <div>Object Oriented Programming</div>
+        <div>Responsive Web Design</div>
         <div>Server-Side Rendering</div>
         <div>HTML5</div>
         <div>RESTful APIs</div>
@@ -67,7 +69,8 @@ const Skills = (props: SkillsProps): JSX.Element => {
         <div>Agile/Scrum</div>
         <div>Semantic UI</div>
         <div>Material UI</div>
-        <div>Jira</div>
+        <div>Jira Ticketing System</div>
+        <div>Linux</div>
         <div>Git</div>
         <div>Bitbucket</div>
         <div>Ruby on Rails</div>
