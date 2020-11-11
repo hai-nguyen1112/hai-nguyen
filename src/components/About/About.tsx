@@ -30,9 +30,20 @@ const About = (): JSX.Element => {
     employmentDetails = employmentHistory.map(
       (e: string[], index: number): JSX.Element => {
         return (
-          <li key={e[0] + e[1] + index}>
-            <span>{e[0]}</span>
-            <span>{e[1]}</span>
+          <li key={e[0] + index}>
+            {e.map((content: string, i: number) => {
+              if (!content.startsWith('+')) {
+                return (
+                  <span
+                    key={content + i}
+                    style={{ textDecoration: 'underline' }}
+                  >
+                    {content}
+                  </span>
+                );
+              }
+              return <span key={content + i}>&nbsp;&nbsp;&nbsp;{content}</span>;
+            })}
           </li>
         );
       }
@@ -53,7 +64,7 @@ const About = (): JSX.Element => {
         <ul>{educationDetails}</ul>
       </div>
       <div className={styles.workExperience}>
-        <h4 className={styles.categoryTitle}>Employment History</h4>
+        <h4 className={styles.categoryTitle}>Work Experience</h4>
         <ul>{employmentDetails}</ul>
       </div>
     </div>
