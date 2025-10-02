@@ -77,6 +77,9 @@ const Skills = (props: SkillsProps): JSX.Element => {
         <div>SQL</div>
         <div>PostgreSQL</div>
         <div>NoSQL</div>
+        <div>Terraform</div>
+        <div>AWS</div>
+        <div>GoLang</div>
       </div>
     </div>
   );

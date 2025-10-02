@@ -49,7 +49,7 @@ const Footer = (): JSX.Element => {
       </div>
       <div className={styles.copyBox}>
         <span className={styles.copyRight}>
-          &copy; Copyright 2020 by Hai Nguyen
+          &copy; Copyright {new Date().getFullYear()} by Hai Nguyen
         </span>
         <div className={styles.disclaimer}>
           All product names, logos and brands are property of their respective
