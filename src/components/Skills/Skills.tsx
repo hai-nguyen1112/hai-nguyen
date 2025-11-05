@@ -14,6 +14,10 @@ import reactLogo from '../../img/react.png';
 import reduxLogo from '../../img/redux.png';
 import sassLogo from '../../img/sass.png';
 import typescriptLogo from '../../img/typescript.jpg';
+import nextjsLogo from '../../img/nextjs.png';
+import graphqlLogo from '../../img/graphql.png';
+import tailwindLogo from '../../img/tailwind.png';
+import cypressLogo from '../../img/cypress.webp';
 
 type SkillsProps = {
   skills: { img: string; title: string; description: string; id: string }[];
@@ -35,6 +39,10 @@ const Skills = (props: SkillsProps): JSX.Element => {
       if (skill.img === 'redux.png') skill.img = reduxLogo;
       if (skill.img === 'sass.png') skill.img = sassLogo;
       if (skill.img === 'typescript.jpg') skill.img = typescriptLogo;
+      if (skill.img === 'nextjs.png') skill.img = nextjsLogo;
+      if (skill.img === 'graphql.png') skill.img = graphqlLogo;
+      if (skill.img === 'tailwind.png') skill.img = tailwindLogo;
+      if (skill.img === 'cypress.webp') skill.img = cypressLogo;
     }
 
     skillsList = skills.map(
@@ -65,16 +73,18 @@ const Skills = (props: SkillsProps): JSX.Element => {
         <div>Server-Side Rendering</div>
         <div>HTML5</div>
         <div>RESTful APIs</div>
-        <div>Postman</div>
+        <div>Docker</div>
         <div>Agile/Scrum</div>
-        <div>Semantic UI</div>
+        <div>Bootstrap</div>
         <div>Material UI</div>
         <div>Jira Ticketing System</div>
         <div>Linux</div>
         <div>Git</div>
-        <div>Bitbucket</div>
-        <div>Ruby on Rails</div>
-        <div>SQL</div>
+        <div>Jest</div>
+        <div>Vitest</div>
+        <div>React Testing Library</div>
+        <div>CICD</div>
+        <div>MySQL</div>
         <div>PostgreSQL</div>
         <div>NoSQL</div>
         <div>Terraform</div>
