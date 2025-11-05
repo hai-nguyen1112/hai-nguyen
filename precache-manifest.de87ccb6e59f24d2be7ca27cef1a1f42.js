@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf1721b85ddf7e9802e3c846faa97317",
+    "revision": "e2ac7256acee60a1c6f3b34887caad30",
     "url": "/hai-nguyen/index.html"
   },
   {
-    "revision": "0f58c3d86c18022e22ee",
-    "url": "/hai-nguyen/static/css/main.ff2e73e7.chunk.css"
+    "revision": "8e97b286c8c255d4a600",
+    "url": "/hai-nguyen/static/css/main.79e81134.chunk.css"
   },
   {
-    "revision": "159d9b4ee90e0b1c414b",
-    "url": "/hai-nguyen/static/js/2.8b9bd8cc.chunk.js"
+    "revision": "3644d7064acd0332a053",
+    "url": "/hai-nguyen/static/js/2.88737c3f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/hai-nguyen/static/js/2.8b9bd8cc.chunk.js.LICENSE.txt"
+    "url": "/hai-nguyen/static/js/2.88737c3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f58c3d86c18022e22ee",
-    "url": "/hai-nguyen/static/js/main.90c79963.chunk.js"
+    "revision": "8e97b286c8c255d4a600",
+    "url": "/hai-nguyen/static/js/main.e4e3d16a.chunk.js"
   },
   {
     "revision": "55a00dcba4209a7e54e5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "13d8dcf5f9d81de0dae4db7d954edb19",
     "url": "/hai-nguyen/static/media/cfsa.13d8dcf5.jpg"
+  },
+  {
+    "revision": "1fab2b4929dc0e5dd9759ae123667b3b",
+    "url": "/hai-nguyen/static/media/cypress.1fab2b49.webp"
   },
   {
     "revision": "5018a76b97460a4b505cb980cd28f5f5",
