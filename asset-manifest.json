@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hai-nguyen/static/css/main.79e81134.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.7dffe677.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.7dffe677.chunk.js.map",
+    "main.js": "/hai-nguyen/static/js/main.60b78d85.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.60b78d85.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
     "static/js/2.725c4234.chunk.js": "/hai-nguyen/static/js/2.725c4234.chunk.js",
     "static/js/2.725c4234.chunk.js.map": "/hai-nguyen/static/js/2.725c4234.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.2ba027db44616d8ebe57be143cd2f89d.js": "/hai-nguyen/precache-manifest.2ba027db44616d8ebe57be143cd2f89d.js",
+    "precache-manifest.d708eaa3c7748ef4ac23b79c09de26f6.js": "/hai-nguyen/precache-manifest.d708eaa3c7748ef4ac23b79c09de26f6.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
     "static/css/main.79e81134.chunk.css.map": "/hai-nguyen/static/css/main.79e81134.chunk.css.map",
     "static/js/2.725c4234.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.725c4234.chunk.js.LICENSE.txt",
@@ -22,7 +22,7 @@
     "static/media/haiavatar.jpg": "/hai-nguyen/static/media/haiavatar.5e6b1b6c.jpg",
     "static/media/hiant.jpg": "/hai-nguyen/static/media/hiant.03492720.jpg",
     "static/media/javascript.jpg": "/hai-nguyen/static/media/javascript.466c9720.jpg",
-    "static/media/jobboard.png": "/hai-nguyen/static/media/jobboard.7e2aea46.png",
+    "static/media/jobboard.png": "/hai-nguyen/static/media/jobboard.727d6d46.png",
     "static/media/mongodb.png": "/hai-nguyen/static/media/mongodb.50f50ad5.png",
     "static/media/mongoose.png": "/hai-nguyen/static/media/mongoose.89e2c62c.png",
     "static/media/nodejs.png": "/hai-nguyen/static/media/nodejs.49eb264a.png",
@@ -33,12 +33,12 @@
     "static/media/undercooked.jpg": "/hai-nguyen/static/media/undercooked.9da375a2.jpg",
     "static/media/web.png": "/hai-nguyen/static/media/web.ac8945f2.png",
     "static/media/Welcome.module.scss": "/hai-nguyen/static/media/welcome.578bdd00.jpg",
-    "static/media/wildoasis.png": "/hai-nguyen/static/media/wildoasis.d8c2a4ee.png"
+    "static/media/wildoasis.png": "/hai-nguyen/static/media/wildoasis.5f526032.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d0340237.js",
     "static/js/2.725c4234.chunk.js",
     "static/css/main.79e81134.chunk.css",
-    "static/js/main.7dffe677.chunk.js"
+    "static/js/main.60b78d85.chunk.js"
   ]
 }
