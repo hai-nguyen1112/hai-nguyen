@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2ac7256acee60a1c6f3b34887caad30",
+    "revision": "14c5282249da8e7cecb6cc372c8a12bf",
     "url": "/hai-nguyen/index.html"
   },
   {
-    "revision": "8e97b286c8c255d4a600",
+    "revision": "5c3328c692aba2e25657",
     "url": "/hai-nguyen/static/css/main.79e81134.chunk.css"
   },
   {
-    "revision": "3644d7064acd0332a053",
-    "url": "/hai-nguyen/static/js/2.88737c3f.chunk.js"
+    "revision": "3e53a55bbb7514c698df",
+    "url": "/hai-nguyen/static/js/2.725c4234.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/hai-nguyen/static/js/2.88737c3f.chunk.js.LICENSE.txt"
+    "url": "/hai-nguyen/static/js/2.725c4234.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e97b286c8c255d4a600",
-    "url": "/hai-nguyen/static/js/main.e4e3d16a.chunk.js"
+    "revision": "5c3328c692aba2e25657",
+    "url": "/hai-nguyen/static/js/main.7dffe677.chunk.js"
   },
   {
     "revision": "55a00dcba4209a7e54e5",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hai-nguyen/static/media/hai-nguyen.db5105bd.jpg"
   },
   {
-    "revision": "43bab67fc5c0172c09338f0524cf7f82",
-    "url": "/hai-nguyen/static/media/haiavatar.43bab67f.jpg"
+    "revision": "5e6b1b6c726dcb113af71f2996010cb6",
+    "url": "/hai-nguyen/static/media/haiavatar.5e6b1b6c.jpg"
   },
   {
     "revision": "03492720ddf1009be6da002eb1112afd",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "466c972021323d12420fc20a016f5b28",
     "url": "/hai-nguyen/static/media/javascript.466c9720.jpg"
+  },
+  {
+    "revision": "7e2aea46f4a3c472890a807e982bd62b",
+    "url": "/hai-nguyen/static/media/jobboard.7e2aea46.png"
   },
   {
     "revision": "50f50ad550b9affb29c5055543bef79b",
@@ -102,5 +106,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "578bdd0063361be9021cb7bce4d77b94",
     "url": "/hai-nguyen/static/media/welcome.578bdd00.jpg"
+  },
+  {
+    "revision": "d8c2a4ee0560a79d0d48a5860d02a29d",
+    "url": "/hai-nguyen/static/media/wildoasis.d8c2a4ee.png"
   }
 ]);
