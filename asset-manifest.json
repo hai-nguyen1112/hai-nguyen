@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/hai-nguyen/static/css/main.79e81134.chunk.css",
-    "main.js": "/hai-nguyen/static/js/main.60b78d85.chunk.js",
-    "main.js.map": "/hai-nguyen/static/js/main.60b78d85.chunk.js.map",
+    "main.js": "/hai-nguyen/static/js/main.16385fce.chunk.js",
+    "main.js.map": "/hai-nguyen/static/js/main.16385fce.chunk.js.map",
     "runtime-main.js": "/hai-nguyen/static/js/runtime-main.d0340237.js",
     "runtime-main.js.map": "/hai-nguyen/static/js/runtime-main.d0340237.js.map",
-    "static/js/2.725c4234.chunk.js": "/hai-nguyen/static/js/2.725c4234.chunk.js",
-    "static/js/2.725c4234.chunk.js.map": "/hai-nguyen/static/js/2.725c4234.chunk.js.map",
+    "static/js/2.d2595f31.chunk.js": "/hai-nguyen/static/js/2.d2595f31.chunk.js",
+    "static/js/2.d2595f31.chunk.js.map": "/hai-nguyen/static/js/2.d2595f31.chunk.js.map",
     "index.html": "/hai-nguyen/index.html",
-    "precache-manifest.d708eaa3c7748ef4ac23b79c09de26f6.js": "/hai-nguyen/precache-manifest.d708eaa3c7748ef4ac23b79c09de26f6.js",
+    "precache-manifest.d37ba0de5db6a729c29f30ff1c85e4fc.js": "/hai-nguyen/precache-manifest.d37ba0de5db6a729c29f30ff1c85e4fc.js",
     "service-worker.js": "/hai-nguyen/service-worker.js",
     "static/css/main.79e81134.chunk.css.map": "/hai-nguyen/static/css/main.79e81134.chunk.css.map",
-    "static/js/2.725c4234.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.725c4234.chunk.js.LICENSE.txt",
+    "static/js/2.d2595f31.chunk.js.LICENSE.txt": "/hai-nguyen/static/js/2.d2595f31.chunk.js.LICENSE.txt",
     "static/media/About.module.scss": "/hai-nguyen/static/media/about.86785ab3.jpg",
     "static/media/cfsa.jpg": "/hai-nguyen/static/media/cfsa.13d8dcf5.jpg",
     "static/media/cypress.webp": "/hai-nguyen/static/media/cypress.1fab2b49.webp",
     "static/media/enzyme.png": "/hai-nguyen/static/media/enzyme.5018a76b.png",
     "static/media/express.png": "/hai-nguyen/static/media/express.bd3a7cd2.png",
+    "static/media/fastpizza.png": "/hai-nguyen/static/media/fastpizza.8a343241.png",
     "static/media/ge.jpg": "/hai-nguyen/static/media/ge.f70d052e.jpg",
     "static/media/hai-nguyen.jpg": "/hai-nguyen/static/media/hai-nguyen.db5105bd.jpg",
     "static/media/haiavatar.jpg": "/hai-nguyen/static/media/haiavatar.5e6b1b6c.jpg",
@@ -37,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d0340237.js",
-    "static/js/2.725c4234.chunk.js",
+    "static/js/2.d2595f31.chunk.js",
     "static/css/main.79e81134.chunk.css",
-    "static/js/main.60b78d85.chunk.js"
+    "static/js/main.16385fce.chunk.js"
   ]
 }

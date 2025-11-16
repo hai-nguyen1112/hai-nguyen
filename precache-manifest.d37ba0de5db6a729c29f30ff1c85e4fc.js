@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caeb0dfd66801b436fb732febb5f2a1a",
+    "revision": "ebfaf9935f432064e05d9b5bb02331f6",
     "url": "/hai-nguyen/index.html"
   },
   {
-    "revision": "7ed46cbe71aeac4f7211",
+    "revision": "747a7cb5030572a52afe",
     "url": "/hai-nguyen/static/css/main.79e81134.chunk.css"
   },
   {
-    "revision": "3e53a55bbb7514c698df",
-    "url": "/hai-nguyen/static/js/2.725c4234.chunk.js"
+    "revision": "13aac3074846fd0eed90",
+    "url": "/hai-nguyen/static/js/2.d2595f31.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/hai-nguyen/static/js/2.725c4234.chunk.js.LICENSE.txt"
+    "url": "/hai-nguyen/static/js/2.d2595f31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ed46cbe71aeac4f7211",
-    "url": "/hai-nguyen/static/js/main.60b78d85.chunk.js"
+    "revision": "747a7cb5030572a52afe",
+    "url": "/hai-nguyen/static/js/main.16385fce.chunk.js"
   },
   {
     "revision": "55a00dcba4209a7e54e5",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd3a7cd2ca0465f43ba25a6918c64b5e",
     "url": "/hai-nguyen/static/media/express.bd3a7cd2.png"
+  },
+  {
+    "revision": "8a343241385d16cf43265a674e93c8da",
+    "url": "/hai-nguyen/static/media/fastpizza.8a343241.png"
   },
   {
     "revision": "f70d052e88e16a859524e876c6240f34",
