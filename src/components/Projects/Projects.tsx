@@ -12,6 +12,7 @@ import undercooked from '../../img/undercooked.jpg';
 import hiant from '../../img/hiant.jpg';
 import wildOasis from '../../img/wildoasis.png';
 import jobBoard from '../../img/jobboard.png';
+import fastPizza from '../../img/fastpizza.png';
 
 interface ProjectsProps {
   projects: ProjectType[];
@@ -24,6 +25,7 @@ const Projects = (props: ProjectsProps): JSX.Element => {
   if (projects && projects.length > 0) {
     for (const project of projects) {
       if (project.img === 'wildoasis.png') project.img = wildOasis;
+      if (project.img === 'fastpizza.png') project.img = fastPizza;
       if (project.img === 'jobboard.png') project.img = jobBoard;
       if (project.img === 'hai-nguyen.jpg') project.img = hainguyen;
       if (project.img === 'ge.jpg') project.img = ge;
