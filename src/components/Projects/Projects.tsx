@@ -13,6 +13,7 @@ import hiant from '../../img/hiant.jpg';
 import wildOasis from '../../img/wildoasis.png';
 import jobBoard from '../../img/jobboard.png';
 import fastPizza from '../../img/fastpizza.png';
+import aiChatBot from '../../img/aichatbot.png';
 
 interface ProjectsProps {
   projects: ProjectType[];
@@ -24,6 +25,7 @@ const Projects = (props: ProjectsProps): JSX.Element => {
   let projectsList: JSX.Element[] = [];
   if (projects && projects.length > 0) {
     for (const project of projects) {
+      if (project.img === 'aichatbot.png') project.img = aiChatBot;
       if (project.img === 'wildoasis.png') project.img = wildOasis;
       if (project.img === 'fastpizza.png') project.img = fastPizza;
       if (project.img === 'jobboard.png') project.img = jobBoard;
